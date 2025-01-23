@@ -1,44 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>La Marchesina</title>
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
 
-    <!-- Favicons -->
-    <link href="assets/img/favicon.ico" rel="icon" />
-    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <title>La Marchesina</title>
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
 
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com" rel="preconnect" />
-    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
+  <!-- Favicons -->
+  <link href="assets/img/favicon.ico" rel="icon" />
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
 
-    <!-- Vendor CSS Files -->
-    <link
-      href="assets/vendor/bootstrap/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <link
-      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
-      rel="stylesheet"
-    />
-    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
-    <link
-      href="assets/vendor/glightbox/css/glightbox.min.css"
-      rel="stylesheet"
-    />
-    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect" />
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
 
-    <!-- Main CSS File -->
-    <link href="assets/css/main.css" rel="stylesheet" />
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
-    <!-- =======================================================
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet" />
+
+  <!-- =======================================================
   * Template Name: Arsha
   * Template URL: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/
   * Updated: Aug 07 2024 with Bootstrap v5.3.3
@@ -46,54 +37,83 @@
   * License: https://bootstrapmade.com/license/
 
   ======================================================== -->
-    <style>
-      .fonodo {
-        background-image: url("assets/img/homemarche/lamarchesina20-1024x683.jpg");
-        background-size: cover;
-        background-position: center;
-        height: 100vh;
-      }
+  <style>
+    .fonodo {
+      background-image: url("assets/img/homemarche/lamarchesina20-1024x683.jpg");
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+    }
 
-      .overlay {
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-color: rgba(
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(0,
           0,
           0,
-          0,
-          0.5
-        ); /* Capa negra con 50% de opacidad */
-        z-index: 0; /* Coloca la capa negra detrás del contenido */
-      }
-    </style>
-  </head>
+          0.5);
+      /* Capa negra con 50% de opacidad */
+      z-index: 0;
+      /* Coloca la capa negra detrás del contenido */
+    }
 
-  <body class="index-page">
-    <header id="header" class="header d-flex align-items-center fixed-top" style="height: 15vh;">
-      <div
-        class="container-fluid container-xl position-relative d-flex align-items-center justify-content-around"
-      >
-        <!-- <a href="index.html" class="logo d-flex align-items-center me-auto"> -->
-        <!-- </a> -->
-        <img
-          src="assets/img/logomarchesina.png"
-          class="img-fluid w-50"
-          style="max-width: 220px"
-          alt="logo marchesina"
-        />
+    #card-info {
+      margin-top: 2rem;
+      background-color: rgb(240, 240, 240);
+      width: 400px;
+      height: 250px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      /* Centra horizontalmente */
+      align-items: center;
+      /* Centra verticalmente */
+      height: 200px;
+      /* Ajusta la altura según necesites */
+      border-radius: 4%;
+    }
 
-        <nav id="navmenu" class="navmenu">
-          <ul>
-            <li><a href="#hero" class="active fs-5">Inicio</a></li>
-            <li><a href="#about" class="fs-5">Nosotros</a></li>
-            <li><a href="#services" class="fs-5">Productos</a></li>
-            <li><a href="#faq-2" class="fs-5">Frecuente</a></li>
-            <li><a href="#portfolio" class="fs-5">Multimedia</a></li>
-            <!-- <li><a href="#pricing"class="fs-4" >Pricing</a></li> -->
-            <!-- <li class="dropdown"class="fs-4" ><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+    #card-info p {
+      margin-top: .9rem;
+      width: 80%;
+      border-top: 1px solid rgb(187, 187, 187);
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body class="index-page">
+
+
+
+
+
+
+
+
+
+
+  <header id="header" class="header d-flex align-items-center fixed-top" style="height: 12vh;">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-around pt-2">
+      <!-- <a href="index.html" class="logo d-flex align-items-center me-auto"> -->
+      <!-- </a> -->
+      <a href="#hero" style="display: flex; justify-content: center; align-items: center; width: 300px; height: 11vh;">
+        <img src="assets/img/logomarchesina.png" class="img-fluid w-50" style="max-width: 190px"
+          alt="logo marchesina" /></a>
+
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active fs-5">Inicio</a></li>
+          <li><a href="#about" class="fs-5">Nosotros</a></li>
+          <li><a href="#services" class="fs-5">Productos</a></li>
+          <li><a href="#faq-2" class="fs-5">Frecuente</a></li>
+          <li><a href="#portfolio" class="fs-5">Multimedia</a></li>
+          <!-- <li><a href="#pricing"class="fs-4" >Pricing</a></li> -->
+          <!-- <li class="dropdown"class="fs-4" ><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
               <li><a href="#">Dropdown 1</a></li>
               <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
@@ -110,80 +130,66 @@
               <li><a href="#">Dropdown 4</a></li>
             </ul>
           </li> -->
-            <li><a href="#testimonials" class="fs-5">Novedades</a></li>
-            <li><a href="#contact" class="fs-5">Contacto</a></li>
-          </ul>
-          <i class="mobile-nav-toggle d-xl-none bi bi-list d-end"></i>
-        </nav>
+          <li><a href="#testimonials" class="fs-5">Novedades</a></li>
+          <li><a href="#contact" class="fs-5">Contacto</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list d-end"></i>
+      </nav>
 
-        <!-- <a class="btn-getstarted fs-4"  href="#about" >Cotizar</a> -->
-      </div>
-    </header>
+      <!-- <a class="btn-getstarted fs-4"  href="#about" >Cotizar</a> -->
+    </div>
+  </header>
 
-    <main class="main">
-      <!-- Hero Section -->
-      <section id="hero" class="hero section dark-background fonodo">
-        <div class="overlay"></div>
+  <main class="main">
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background fonodo">
+      <div class="overlay"></div>
 
-        <div class="container">
-          <div class="row gy-4">
-            <div
-              class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center"
-              data-aos="zoom-out"
-            >
-              <h1>Líderes en Hormigón Elaborado</h1>
-              <p>
-                La Marchesina es una empresa de servicios con más de 25 años y
-                dedicada como primera actividad a la explotación y
-                comercialización de áridos, transformándose en una de las
-                principales empresas hormigoneras de la provincia de Córdoba.
-              </p>
-              <div class="d-flex">
-                <a
-                  href="#about"
-                  class="btn-get-started fs-4 hovercotiza"
-                  style="background-color: #389837"
-                  >Cotizar</a
-                >
-                <a
-                  href="#hero"
-                  class="fs-4 pr-1 align-items-cente fw-bold hovercotizatexto"
-                  style="
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="zoom-out">
+            <h1>Líderes en Hormigón Elaborado</h1>
+            <p>
+              La Marchesina es una empresa de servicios con más de 25 años y
+              dedicada como primera actividad a la explotación y
+              comercialización de áridos, transformándose en una de las
+              principales empresas hormigoneras de la provincia de Córdoba.
+            </p>
+            <div class="d-flex">
+              <a href="#about" class="btn-get-started fs-4 hovercotiza"
+                style="background-color: #389837; border: 1px solid transparent;">Cotizar</a>
+              <a href="#hero" class="fs-4 pr-1 align-items-cente fw-bold hovercotizatexto" style="
                     padding-left: 20px;
                     height: 50px;
                     line-height: 50px;
                     text-align: center;
-                    color: #3caf3a;
-                  "
-                >
-                  Calculo M3
-                </a>
-              </div>
-            </div>
-
-            <div
-              class="col-lg-6 order-1 order-lg-2 hero-img"
-              data-aos="zoom-out"
-              data-aos-delay="200"
-            >
-              <!-- <img src="assets/img/hero-img.png" class="img-fluid animated" alt=""> -->
-              <!-- <img src="assets/img/concrete-mixter.svg" class="img-fluid animated" alt=""> -->
+                    color: #389837;
+                  ">
+                Calculo M3
+              </a>
             </div>
           </div>
-        </div>
-      </section>
-      <!-- /Hero Section -->
 
-      <!-- Clients Section -->
-      <section id="clients" class="clients section light-background" style="background-color: #37517E; height: 6rem; padding: 0px;">
-        <div class="container" data-aos="zoom-in">
-          <div class="swiper init-swiper">
-            <script type="application/json" class="swiper-config">
+          <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="200">
+            <!-- <img src="assets/img/hero-img.png" class="img-fluid animated" alt=""> -->
+            <!-- <img src="assets/img/concrete-mixter.svg" class="img-fluid animated" alt=""> -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /Hero Section -->
+
+    <!-- Clients Section -->
+    <section id="clients" class="clients section light-background"
+      style="background-color: #37517E; height: 6rem; padding: 0px;">
+      <div class="container" data-aos="zoom-in">
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
               {
                 "loop": true,
-                "speed": 700,
+                "speed": 900,
                 "autoplay": {
-                  "delay": 2000
+                  "delay": 1500
                 },
                 "slidesPerView": "auto",
                 "pagination": {
@@ -215,616 +221,561 @@
                 }
               }
             </script>
-            <div class="swiper-wrapper align-items-center">
-              <div class="swiper-slide">
-                <img
-                  src="assets/img/menu-transporte.svg"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-              <div class="swiper-slide">
-                <img
-                  src="assets/img/menu-bombeo.svg"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-              <div class="swiper-slide">
-                <img
-                  src="assets/img/menu-construccion.svg"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-              <div class="swiper-slide">
-                <img
-                  src="assets/img/menu-energia.svg"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-              <div class="swiper-slide">
-                <img
-                  src="assets/img/menu-grua.svg"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-              <div class="swiper-slide container">
-                <img
-                  src="assets/img/menu-hormigon.svg"
-                  class="img-fluid"
-                  alt=""
-                  />
-              </div>
-              <div class="swiper-slide">
-                <img
-                  src="assets/img/menu-laboratorio.svg"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide">
+              <img src="assets/img/menu-transporte.svg" class="img-fluid" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/img/menu-bombeo.svg" class="img-fluid" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/img/menu-construccion.svg" class="img-fluid" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/img/menu-energia.svg" class="img-fluid" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/img/menu-grua.svg" class="img-fluid" alt="" />
+            </div>
+            <div class="swiper-slide container">
+              <img src="assets/img/menu-hormigon.svg" class="img-fluid" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/img/menu-laboratorio.svg" class="img-fluid" alt="" />
             </div>
           </div>
         </div>
-      </section>
-      <!-- /Clients Section -->
+      </div>
+    </section>
+    <!-- /Clients Section -->
 
-      <!-- About Section -->
-      <section id="about" class="about section">
-        <!-- Section Title -->
-        <div class="container section-title" data-aos="fade-up">
-          <h2>Sobre Nosotros</h2>
-        </div>
-        <!-- End Section Title -->
+    <!-- About Section -->
+    <section id="about" class="about section">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Sobre Nosotros</h2>
+      </div>
+      <!-- End Section Title -->
 
-        <div class="container">
-          <div class="row gy-4">
-            <div
-              class="col-lg-6 content"
-              data-aos="fade-up"
-              data-aos-delay="100"
-            >
-              <p>
-                La Marchesina es una empresa de servicios con más de 25 años de
-                antigüedad y dedicada como primera actividad a la explotación y
-                comercialización de áridos, transformándose luego en una de las
-                principales empresas hormigoneras de la provincia de Córdoba.
-                <br /><br />
-                En la actualidad su Casa Central se encuentra en la localidad de
-                Villa María y posee plantas hormigoneras en la mencionada ciudad
-                como así también en: General Cabrera, Dalmacio Vélez, Las
-                Varillas, San Francisco, Oncativo, Bell Ville, Jesús María,
-                Córdoba y Malagueño.
-              </p>
-              <ul>
-                <li>
-                  <i class="bi bi-check2-circle text-success"></i>
-                  <span>Hormigón Elaborado</span>
-                </li>
-                <li>
-                  <i class="bi bi-check2-circle text-success"></i>
-                  <span>Servicio de Bombeo</span>
-                </li>
-                <li>
-                  <i class="bi bi-check2-circle text-success"></i>
-                  <span>Canteras propias de áridos</span>
-                </li>
-                <li>
-                  <i class="bi bi-check2-circle text-success"></i>
-                  <span>Transporte de áridos a corta y larga distancia.</span>
-                </li>
-                <li>
-                  <i class="bi bi-check2-circle text-success"></i>
-                  <span>Alquiler de equipos para movimiento de suelos</span>
-                </li>
-                <li>
-                  <i class="bi bi-check2-circle text-success"></i>
-                  <span>Servicio de Grúas y Máquinas Viales</span>
-                </li>
-                <li>
-                  <i class="bi bi-check2-circle text-success"></i>
-                  <span>Fabricación de ladrillos block/adoquines</span>
-                </li>
-                <li>
-                  <i class="bi bi-check2-circle text-success"></i>
-                  <span>Fabricación de viguetas</span>
-                </li>
-                <li>
-                  <i class="bi bi-check2-circle text-success"></i>
-                  <span>Servicio de Bombeo</span>
-                </li>
-              </ul>
-            </div>
-
-            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-              <p>
-                La Marchesina comenzó como una empresa unipersonal fundada por
-                Hugo Pedro Berardo, dedicada a la comercialización de áridos. A
-                finales de la década de 1990, la empresa se consolidó como una
-                sociedad jurídica. Bajo la dirección del Contador César Berardo,
-                la familia buscó agregar valor a su producción, comenzando con
-                la clasificación de los áridos y ofreciendo el servicio
-                directamente en obra. <br /><br />
-                En 1999, se dio un paso importante al adquirir una planta para
-                producir hormigón elaborado, a lo que se sumó un servicio de
-                bombeo para facilitar el traslado del producto a las distintas
-                construcciones de Villa María y la región. La incorporación del
-                hormigón elaborado fue un hecho pionero en el interior del país,
-                lo que transformó el mercado y la forma de trabajar en el sector
-                de la construcción.
-                <br /><br />
-                Con más de 20 años de existencia, La Marchesina ha crecido
-                significativamente, contando con varias plantas hormigoneras
-                estratégicamente ubicadas en Córdoba, un extenso parque de
-                maquinarias para el suministro de hormigón, y plantas portátiles
-                que pueden ser instaladas directamente en obra. También dispone
-                de un laboratorio móvil certificado por el INTI, con equipos
-                para ensayos de probetas.
-                <br /><br />
-                Aparte de la producción de hormigón, la empresa también se
-                dedica a la comercialización y transporte de áridos, así como al
-                alquiler de grúas y maquinaria vial. Estos servicios han
-                permitido que La Marchesina se posicione como una de las
-                empresas líderes en el sector de la construcción en la provincia
-                de Córdoba.
-              </p>
-              <!-- <a href="#" class="read-more"><span>Read More</span><i class="bi bi-arrow-right"></i></a> -->
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- /About Section -->
-
-      <!-- Services Section -->
-      <section id="services" class="services section light-background">
-        <!-- Section Title -->
-        <div class="container section-title" data-aos="fade-up">
-          <h2>Productos y Servicios</h2>
-        </div>
-        <!-- End Section Title -->
-
-        <div class="container">
-          <div class="row gy-4">
-            <div
-              class="col-xl-4 col-md-6 col-sm-12 d-flex"
-              data-aos="fade-up"
-              data-aos-delay="100"
-            >
-              <div class="service-item position-relative">
-                <!-- <div class="icon"><i class="bi bi-activity icon">dada</i></div> -->
-                <div class="icon"><img src="assets/img/homemarche/x1-Hormigon.jpg" class="img-fluid" alt=""></div>
-                <h4><a href="" class="stretched-link">HORMIGON ELABORADO</a></h4>
-                <p>
-                  Voluptatum deleniti atque corrupti quos dolores et quas
-                  molestias excepturi
-                </p>
-              </div>
-            </div>
-            <!-- End Service Item -->
-
-            <div
-              class="col-xl-4 col-md-6 col-sm-12 d-flex"
-              data-aos="fade-up"
-              data-aos-delay="100"
-            >
-              <div class="service-item position-relative">
-                <!-- <div class="icon"><i class="bi bi-activity icon">dada</i></div> -->
-                <div class="icon"><img src="assets/img/homemarche/x2-Bombeo.jpg" class="img-fluid" alt=""></div>
-                <h4><a href="" class="stretched-link">SERVICIO DE BOMBEO</a></h4>
-                <p>
-                  Voluptatum deleniti atque corrupti quos dolores et quas
-                  molestias excepturi
-                </p>
-              </div>
-            </div>
-            <!-- End Service Item -->
-
-            <div
-              class="col-xl-4 col-md-6 col-sm-12 d-flex"
-              data-aos="fade-up"
-              data-aos-delay="100"
-            >
-              <div class="service-item position-relative">
-                <!-- <div class="icon"><i class="bi bi-activity icon">dada</i></div> -->
-                <div class="icon"><img src="assets/img/homemarche/x3-Aridos.jpg" class="img-fluid" alt=""></div>
-                <h4><a href="" class="stretched-link">ARIDOS</a></h4>
-                <p>
-                  Voluptatum deleniti atque corrupti quos dolores et quas
-                  molestias excepturi
-                </p>
-              </div>
-            </div>
-            <!-- End Service Item -->
-
-            <div
-              class="col-xl-4 col-md-6 col-sm-12 d-flex"
-              data-aos="fade-up"
-              data-aos-delay="100"
-            >
-              <div class="service-item position-relative">
-                <!-- <div class="icon"><i class="bi bi-activity icon">dada</i></div> -->
-                <div class="icon"><img src="assets/img/homemarche/x4-Transporte.jpg" class="img-fluid" alt=""></div>
-                <h4><a href="" class="stretched-link">TRANSPORTE DE ARIDOS</a></h4>
-                <p>
-                  Voluptatum deleniti atque corrupti quos dolores et quas
-                  molestias excepturi
-                </p>
-              </div>
-            </div>
-            <!-- End Service Item -->
-            <div
-              class="col-xl-4 col-md-6 col-sm-12 d-flex"
-              data-aos="fade-up"
-              data-aos-delay="100"
-            >
-              <div class="service-item position-relative">
-                <!-- <div class="icon"><i class="bi bi-activity icon">dada</i></div> -->
-                <div class="icon"><img src="assets/img/homemarche/x5-Movimiento.jpg" class="img-fluid" alt=""></div>
-                <h4><a href="" class="stretched-link">MOVIMIENTO DE SUELOS</a></h4>
-                <p>
-                  Voluptatum deleniti atque corrupti quos dolores et quas
-                  molestias excepturi
-                </p>
-              </div>
-            </div>
-          <!-- End Service Item -->
-          <div
-          class="col-xl-4 col-md-6 col-sm-12 d-flex"
-          data-aos="fade-up"
-          data-aos-delay="100"
-        >
-          <div class="service-item position-relative">
-            <!-- <div class="icon"><i class="bi bi-activity icon">dada</i></div> -->
-            <div class="icon"><img src="assets/img/homemarche/x6-block.jpg" class="img-fluid" alt=""></div>
-            <h4><a href="" class="stretched-link">BLOCKS Y ADOQUINES</a></h4>
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
             <p>
-              Voluptatum deleniti atque corrupti quos dolores et quas
-              molestias excepturi
+              La Marchesina es una empresa de servicios con más de 25 años de
+              antigüedad y dedicada como primera actividad a la explotación y
+              comercialización de áridos, transformándose luego en una de las
+              principales empresas hormigoneras de la provincia de Córdoba.
+              <br /><br />
+              En la actualidad su Casa Central se encuentra en la localidad de
+              Villa María y posee plantas hormigoneras en la mencionada ciudad
+              como así también en: General Cabrera, Dalmacio Vélez, Las
+              Varillas, San Francisco, Oncativo, Bell Ville, Jesús María,
+              Córdoba y Malagueño.
+            </p>
+            <ul>
+              <li>
+                <i class="bi bi-check2-circle text-success"></i>
+                <span>Hormigón Elaborado</span>
+              </li>
+              <li>
+                <i class="bi bi-check2-circle text-success"></i>
+                <span>Servicio de Bombeo</span>
+              </li>
+              <li>
+                <i class="bi bi-check2-circle text-success"></i>
+                <span>Canteras propias de áridos</span>
+              </li>
+              <li>
+                <i class="bi bi-check2-circle text-success"></i>
+                <span>Transporte de áridos a corta y larga distancia.</span>
+              </li>
+              <li>
+                <i class="bi bi-check2-circle text-success"></i>
+                <span>Alquiler de equipos para movimiento de suelos</span>
+              </li>
+              <li>
+                <i class="bi bi-check2-circle text-success"></i>
+                <span>Servicio de Grúas y Máquinas Viales</span>
+              </li>
+              <li>
+                <i class="bi bi-check2-circle text-success"></i>
+                <span>Fabricación de ladrillos block/adoquines</span>
+              </li>
+              <li>
+                <i class="bi bi-check2-circle text-success"></i>
+                <span>Fabricación de viguetas</span>
+              </li>
+              <li>
+                <i class="bi bi-check2-circle text-success"></i>
+                <span>Servicio de Bombeo</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <p>
+              La Marchesina comenzó como una empresa unipersonal fundada por
+              Hugo Pedro Berardo, dedicada a la comercialización de áridos. A
+              finales de la década de 1990, la empresa se consolidó como una
+              sociedad jurídica. Bajo la dirección del Contador César Berardo,
+              la familia buscó agregar valor a su producción, comenzando con
+              la clasificación de los áridos y ofreciendo el servicio
+              directamente en obra. <br /><br />
+              En 1999, se dio un paso importante al adquirir una planta para
+              producir hormigón elaborado, a lo que se sumó un servicio de
+              bombeo para facilitar el traslado del producto a las distintas
+              construcciones de Villa María y la región. La incorporación del
+              hormigón elaborado fue un hecho pionero en el interior del país,
+              lo que transformó el mercado y la forma de trabajar en el sector
+              de la construcción.
+              <br /><br />
+              Con más de 20 años de existencia, La Marchesina ha crecido
+              significativamente, contando con varias plantas hormigoneras
+              estratégicamente ubicadas en Córdoba, un extenso parque de
+              maquinarias para el suministro de hormigón, y plantas portátiles
+              que pueden ser instaladas directamente en obra. También dispone
+              de un laboratorio móvil certificado por el INTI, con equipos
+              para ensayos de probetas.
+              <br /><br />
+              Aparte de la producción de hormigón, la empresa también se
+              dedica a la comercialización y transporte de áridos, así como al
+              alquiler de grúas y maquinaria vial. Estos servicios han
+              permitido que La Marchesina se posicione como una de las
+              empresas líderes en el sector de la construcción en la provincia
+              de Córdoba.
+            </p>
+            <!-- <a href="#" class="read-more"><span>Read More</span><i class="bi bi-arrow-right"></i></a> -->
+          </div>
+
+          <div class="container">
+            <div class="row gy-4">
+
+
+              <div class="col-xl-3 col-md-6 col-sm-12 d-flex" data-aos="fade-up" data-aos-delay="100">
+                <div class="service-item position-relative" id="card-info">
+                  <!-- <div class="icon"><i class="bi bi-activity icon">dada</i></div> -->
+                  <!-- <div class="icon"><img src="assets/img/homemarche/x1-Hormigon.jpg" class="img-fluid" alt=""></div> -->
+                  <h4 style="font-size: 4rem; font-weight: bold; color: rgb(79, 79, 79);">11</h4>
+                  <p>
+                    PLANTAS HORMIGONERAS
+                  </p>
+                </div>
+              </div>
+              <!-- End Service Item -->
+
+              <div class="col-xl-3 col-md-6 col-sm-12 d-flex" data-aos="fade-up" data-aos-delay="100">
+                <div class="service-item position-relative" id="card-info">
+                  <!-- <div class="icon"><i class="bi bi-activity icon">dada</i></div> -->
+                  <!-- <div class="icon"><img src="assets/img/homemarche/x2-Bombeo.jpg" class="img-fluid" alt=""></div> -->
+                  <h4 style="font-size: 4rem; font-weight: bold; color: rgb(79, 79, 79);">25</h4>
+                  <p>
+                    AÑOS DE EXPERIENCIA
+                  </p>
+                </div>
+              </div>
+              <!-- End Service Item -->
+
+              <div class="col-xl-3 col-md-6 col-sm-12 d-flex" data-aos="fade-up" data-aos-delay="100">
+                <div class="service-item position-relative" id="card-info">
+                  <!-- <div class="icon"><i class="bi bi-activity icon">dada</i></div> -->
+                  <!-- <div class="icon"><img src="assets/img/homemarche/x3-Aridos.jpg" class="img-fluid" alt=""></div> -->
+                  <h4 style="font-size: 4rem; font-weight: bold; color: rgb(79, 79, 79);">4</h4>
+                  <p>
+                    BOMBAS PLUMA
+                  </p>
+                </div>
+              </div>
+              <!-- End Service Item -->
+
+              <div class="col-xl-3 col-md-6 col-sm-12 d-flex" data-aos="fade-up" data-aos-delay="100">
+                <div class="service-item position-relative" id="card-info">
+                  <!-- <div class="icon"><i class="bi bi-activity icon">dada</i></div> -->
+                  <!-- <div class="icon"><img src="assets/img/homemarche/x3-Aridos.jpg" class="img-fluid" alt=""></div> -->
+                  <h4 style="font-size: 4rem; font-weight: bold; color: rgb(79, 79, 79);">5</h4>
+                  <p>
+                    MIXERS
+                  </p>
+                </div>
+              </div>
+              <!-- End Service Item -->
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- /About Section -->
+
+    <!-- Services Section -->
+    <section id="services" class="services section light-background">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Productos y Servicios</h2>
+      </div>
+      <!-- End Section Title -->
+
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-xl-4 col-md-6 col-sm-12 d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item position-relative">
+              <!-- <div class="icon"><i class="bi bi-activity icon">dada</i></div> -->
+              <div class="icon"><img src="assets/img/homemarche/x1-Hormigon.jpg" class="img-fluid" alt=""></div>
+              <h4><a href="" class="stretched-link">HORMIGON ELABORADO</a></h4>
+              <p>
+                Voluptatum deleniti atque corrupti quos dolores et quas
+                molestias excepturi
+              </p>
+            </div>
+          </div>
+          <!-- End Service Item -->
+
+          <div class="col-xl-4 col-md-6 col-sm-12 d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item position-relative">
+              <!-- <div class="icon"><i class="bi bi-activity icon">dada</i></div> -->
+              <div class="icon"><img src="assets/img/homemarche/x2-Bombeo.jpg" class="img-fluid" alt=""></div>
+              <h4><a href="" class="stretched-link">SERVICIO DE BOMBEO</a></h4>
+              <p>
+                Voluptatum deleniti atque corrupti quos dolores et quas
+                molestias excepturi
+              </p>
+            </div>
+          </div>
+          <!-- End Service Item -->
+
+          <div class="col-xl-4 col-md-6 col-sm-12 d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item position-relative">
+              <!-- <div class="icon"><i class="bi bi-activity icon">dada</i></div> -->
+              <div class="icon"><img src="assets/img/homemarche/x3-Aridos.jpg" class="img-fluid" alt=""></div>
+              <h4><a href="" class="stretched-link">ARIDOS</a></h4>
+              <p>
+                Voluptatum deleniti atque corrupti quos dolores et quas
+                molestias excepturi
+              </p>
+            </div>
+          </div>
+          <!-- End Service Item -->
+
+          <div class="col-xl-4 col-md-6 col-sm-12 d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item position-relative">
+              <!-- <div class="icon"><i class="bi bi-activity icon">dada</i></div> -->
+              <div class="icon"><img src="assets/img/homemarche/x4-Transporte.jpg" class="img-fluid" alt=""></div>
+              <h4><a href="" class="stretched-link">TRANSPORTE DE ARIDOS</a></h4>
+              <p>
+                Voluptatum deleniti atque corrupti quos dolores et quas
+                molestias excepturi
+              </p>
+            </div>
+          </div>
+          <!-- End Service Item -->
+          <div class="col-xl-4 col-md-6 col-sm-12 d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item position-relative">
+              <!-- <div class="icon"><i class="bi bi-activity icon">dada</i></div> -->
+              <div class="icon"><img src="assets/img/homemarche/x5-Movimiento.jpg" class="img-fluid" alt=""></div>
+              <h4><a href="" class="stretched-link">MOVIMIENTO DE SUELOS</a></h4>
+              <p>
+                Voluptatum deleniti atque corrupti quos dolores et quas
+                molestias excepturi
+              </p>
+            </div>
+          </div>
+          <!-- End Service Item -->
+          <div class="col-xl-4 col-md-6 col-sm-12 d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item position-relative">
+              <!-- <div class="icon"><i class="bi bi-activity icon">dada</i></div> -->
+              <div class="icon"><img src="assets/img/homemarche/x6-block.jpg" class="img-fluid" alt=""></div>
+              <h4><a href="" class="stretched-link">BLOCKS Y ADOQUINES</a></h4>
+              <p>
+                Voluptatum deleniti atque corrupti quos dolores et quas
+                molestias excepturi
+              </p>
+            </div>
+          </div>
+          <!-- End Service Item -->
+          <div class="col-xl-4 col-md-6 col-sm-12 d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item position-relative">
+              <!-- <div class="icon"><i class="bi bi-activity icon">dada</i></div> -->
+              <div class="icon"><img src="assets/img/homemarche/x7-gruas.jpg" class="img-fluid" alt=""></div>
+              <h4><a href="" class="stretched-link">ALQUILER DE AGUAS Y SERVICIOS DE AUXILIO</a></h4>
+              <p>
+                Voluptatum deleniti atque corrupti quos dolores et quas
+                molestias excepturi
+              </p>
+            </div>
+          </div>
+          <!-- End Service Item -->
+          <div class="col-xl-4 col-md-6 col-sm-12 d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item position-relative">
+              <!-- <div class="icon"><i class="bi bi-activity icon">dada</i></div> -->
+              <div class="icon"><img src="assets/img/homemarche/x8-laboratorio.jpg" class="img-fluid" alt=""></div>
+              <h4><a href="" class="stretched-link">LABORATORIO Y ASESORAMIENTO</a></h4>
+              <p>
+                Voluptatum deleniti atque corrupti quos dolores et quas
+                molestias excepturi
+              </p>
+            </div>
+          </div>
+          <!-- End Service Item -->
+          <div class="col-xl-4 col-md-6 col-sm-12 d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item position-relative">
+              <!-- <div class="icon"><i class="bi bi-activity icon">dada</i></div> -->
+              <div class="icon"><img src="assets/img/homemarche/x9-viguetas.jpg" class="img-fluid" alt=""></div>
+              <h4><a href="" class="stretched-link">VIGUETAS</a></h4>
+              <p>
+                Voluptatum deleniti atque corrupti quos dolores et quas
+                molestias excepturi
+              </p>
+            </div>
+          </div>
+          <!-- End Service Item -->
+
+        </div>
+      </div>
+    </section>
+    <!-- /Services Section -->
+
+
+    <!-- Faq 2 Section -->
+    <section id="faq-2" class="faq-2 section light-background">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Preguntas Frecuentes</h2>
+      </div>
+      <!-- End Section Title -->
+
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+            <div class="faq-container">
+              <div class="faq-item faq-active" data-aos="fade-up" data-aos-delay="200">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>¿Qué es el hormigón?</h3>
+                <div class="faq-content">
+                  <p>
+                    El hormigón es una mezcla de áridos, agua, aditivos y cemento. El hormigón también puede contener
+                    otros aditivos como colores minerales, cementos mezclados y escoria de alto horno. Por lo general,
+                    se usa en la construcción, incluidos los cimientos, los sótanos, los caminos de entrada y varios
+                    otros proyectos de construcción.
+                  </p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div>
+              <!-- End Faq item-->
+
+              <div class="faq-item" data-aos="fade-up" data-aos-delay="300">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>
+                  ¿Cuánto cuesta el hormigón fresco?
+                </h3>
+                <div class="faq-content">
+                  <p>
+                    Una variedad de factores pueden afectar el costo, por lo que preferimos hablar con usted sobre sus
+                    requisitos para ayudarlo a encontrar la mejor y más rentable solución para usted. Por lo general,
+                    las cosas que pueden afectar el precio final del hormigón premezclado incluyen la distancia de
+                    entrega, el contenido de cemento, las adiciones de fibras o aditivos y el tiempo de entrega.
+                  </p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div>
+              <!-- End Faq item-->
+
+              <div class="faq-item" data-aos="fade-up" data-aos-delay="400">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>
+                  ¿Cuánto hormigón necesito?
+                </h3>
+                <div class="faq-content">
+                  <p>
+                    Las cantidades de hormigón premezclado se calculan multiplicando largo x ancho x profundidad en
+                    metros cúbicos (m3). Para ayudarlo a calcular la cantidad de hormigón que necesita para un trabajo,
+                    le proporcionamos una útil calculadora de hormigón para ayudarlo a garantizar que obtenga el volumen
+                    que necesita.
+                  </p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div>
+              <!-- End Faq item-->
+
+              <div class="faq-item" data-aos="fade-up" data-aos-delay="500">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>
+                  ¿Cuándo necesito añadir refuerzo de acero?
+                </h3>
+                <div class="faq-content">
+                  <p>
+                    Cualquier requisito de refuerzo de malla de acero será decidido durante la etapa de planificación
+                    por el arquitecto, ingeniero o autoridad local. Puede haber alternativas, incluido el uso de
+                    hormigón de fibra, pero esto dependerá del proyecto específico y de las condiciones locales del
+                    terreno.
+
+                    Si se utiliza acero, es importante notificar al proveedor de hormigón antes de realizar el pedido,
+                    ya que esto puede influir en la selección de ciertos ingredientes de la mezcla.
+                  </p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div>
+              <!-- End Faq item-->
+
+              <div class="faq-item" data-aos="fade-up" data-aos-delay="600">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>
+                  ¿Qué significa "curar" el hormigón?
+                </h3>
+                <div class="faq-content">
+                  <p>
+                    Curado del hormigón es el término utilizado para evitar que el hormigón nuevo se seque demasiado
+                    rápido. Esto se hace porque, si se deja secar por sí solo, el hormigón no desarrollará la unión
+                    completa entre todos sus ingredientes. Será más débil y más propenso a agrietarse.
+
+                    La forma más sencilla de curar el hormigón es colocar una lámina de polietileno sobre la losa
+                    durante siete días en verano y 10 en invierno. Si existe riesgo de congelación, deje un espacio de
+                    aire colocando la hoja sobre listones de madera
+                  </p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div>
+              <!-- End Faq item-->
+
+              <div class="faq-item" data-aos="fade-up" data-aos-delay="600">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>
+                  ¿Cuál es la diferencia entre cemento y hormigón?
+                </h3>
+                <div class="faq-content">
+                  <p>
+                    El hormigón es el producto acabado, como las aceras, los cimientos y la superficie de muchos
+                    caminos. El hormigón contiene arena, grava y cemento. El cemento es el ingrediente endurecedor
+                    especial (el polvo gris) que hace que el hormigón se endurezca. El cemento generalmente está hecho
+                    de 60% de cal (piedra caliza), 25% de sílice, 5% de alúmina y 10% de otros materiales, como yeso y
+                    óxido de hierro. (Contenido proporcionado por el Instituto de Información Mineral, © 2002 )
+                  </p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div>
+              <!-- End Faq item-->
+
+              <div class="faq-item" data-aos="fade-up" data-aos-delay="600">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>
+                  ¿Cuáles son los principales beneficios y aplicaciones del hormigón?
+                </h3>
+                <div class="faq-content">
+                  <p>
+                    Teniendo en cuenta que el hormigón es el producto más consumido de la tierra después del agua, la
+                    utilización de este producto requiere un alto grado de especialización debido a sus múltiples y
+                    variadas aplicaciones. El hormigón tiene un amplio uso en el sector de la construcción. Este
+                    material es utilizado principalmente para la construcción de casas y edificios, puentes, presas,
+                    túneles, obras industriales, obras marítimas, etc.
+                  </p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div>
+              <!-- End Faq item-->
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /Faq 2 Section -->
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Multimedia</h2>
+      </div>
+
+      <div class="container">
+
+        <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-app">
+            <img src="assets/img/homemarche/lamarchesina01.jpg" class="img-fluid" alt="" />
+          </div>
+          <!-- End Portfolio Item -->
+
+          <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+            <img src="assets/img/homemarche/lamarchesina02-1024x576.jpg" class="img-fluid" alt="" />
+          </div>
+          <!-- End Portfolio Item -->
+
+          <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+            <img src="assets/img/homemarche/lamarchesina19-1024x683.jpg" class="img-fluid" alt="" />
+          </div>
+          <!-- End Portfolio Item -->
+
+          <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+            <img src="assets/img/homemarche/lamarchesina06-1024x576.jpg" class="img-fluid" alt="" />
+          </div>
+          <!-- End Portfolio Item -->
+
+          <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-product">
+            <img src="assets/img/homemarche/lamarchesina17-1024x683.jpg" class="img-fluid" alt="" />
+          </div>
+          <!-- End Portfolio Item -->
+
+          <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+            <img src="assets/img/homemarche/lamarchesina08-1024x768.jpg" class="img-fluid" alt="" />
+          </div>
+          <!-- End Portfolio Item -->
+
+          <div class="col-lg-3 col-md-6 portfolio-item isotope-item filter-app">
+            <img src="assets/img/homemarche/lamarchesina11-1024x768.jpg" class="img-fluid" alt="" />
+          </div>
+          <!-- End Portfolio Item -->
+
+          <div class="col-lg-3 col-md-6 portfolio-item isotope-item filter-product">
+            <img src="assets/img/homemarche/lamarchesina10-1024x576.jpg" class="img-fluid" alt="" />
+          </div>
+          <!-- End Portfolio Item -->
+
+          <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-branding">
+            <img src="assets/img/homemarche/lamarchesina09-1024x576.jpg" class="img-fluid" alt="" />
+          </div>
+          <!-- End Portfolio Item -->
+        </div>
+        <!-- End Portfolio Container -->
+      </div>
+      </div>
+    </section>
+    <!-- /Portfolio Section -->
+
+    <!-- Call To Action Section -->
+    <section id="call-to-action" class="call-to-action section dark-background">
+      <img src="assets/img/homemarche/lamarchesina19.jpg" alt="" />
+
+      <div class="container">
+        <div class="row" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-xl-9 text-center text-xl-start">
+            <h3>Cotiza con Nosotros</h3>
+            <p>
+              Ingresa tus datos de contacto junto al detalle de la cotizacion y un representante de ventas se va a poner
+              en contacto.
             </p>
           </div>
-        </div>
-        <!-- End Service Item -->
-        <div
-        class="col-xl-4 col-md-6 col-sm-12 d-flex"
-        data-aos="fade-up"
-        data-aos-delay="100"
-      >
-        <div class="service-item position-relative">
-          <!-- <div class="icon"><i class="bi bi-activity icon">dada</i></div> -->
-          <div class="icon"><img src="assets/img/homemarche/x7-gruas.jpg" class="img-fluid" alt=""></div>
-          <h4><a href="" class="stretched-link">ALQUILER DE AGUAS Y SERVICIOS DE AUXILIO</a></h4>
-          <p>
-            Voluptatum deleniti atque corrupti quos dolores et quas
-            molestias excepturi
-          </p>
+          <div class="col-xl-3 cta-btn-container text-center">
+            <a class="cta-btn align-middle hovercotiza" style="background-color: #389837" href="#">Cotizar</a>
+          </div>
         </div>
       </div>
-      <!-- End Service Item -->
-      <div
-      class="col-xl-4 col-md-6 col-sm-12 d-flex"
-      data-aos="fade-up"
-      data-aos-delay="100"
-    >
-      <div class="service-item position-relative">
-        <!-- <div class="icon"><i class="bi bi-activity icon">dada</i></div> -->
-        <div class="icon"><img src="assets/img/homemarche/x8-laboratorio.jpg" class="img-fluid" alt=""></div>
-        <h4><a href="" class="stretched-link">LABORATORIO Y ASESORAMIENTO</a></h4>
-        <p>
-          Voluptatum deleniti atque corrupti quos dolores et quas
-          molestias excepturi
-        </p>
+    </section>
+    <!-- /Call To Action Section -->
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Nuestras Novedades</h2>
       </div>
-    </div>
-    <!-- End Service Item -->
-    <div
-    class="col-xl-4 col-md-6 col-sm-12 d-flex"
-    data-aos="fade-up"
-    data-aos-delay="100"
-  >
-    <div class="service-item position-relative">
-      <!-- <div class="icon"><i class="bi bi-activity icon">dada</i></div> -->
-      <div class="icon"><img src="assets/img/homemarche/x9-viguetas.jpg" class="img-fluid" alt=""></div>
-      <h4><a href="" class="stretched-link">VIGUETAS</a></h4>
-      <p>
-        Voluptatum deleniti atque corrupti quos dolores et quas
-        molestias excepturi
-      </p>
-    </div>
-  </div>
-  <!-- End Service Item -->
+      <!-- End Section Title -->
 
-          </div>
-        </div>
-      </section>
-      <!-- /Services Section -->
-
-
-      <!-- Faq 2 Section -->
-      <section id="faq-2" class="faq-2 section light-background">
-        <!-- Section Title -->
-        <div class="container section-title" data-aos="fade-up">
-          <h2>Preguntas Frecuentes</h2>
-        </div>
-        <!-- End Section Title -->
-
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-lg-10">
-              <div class="faq-container">
-                <div
-                  class="faq-item faq-active"
-                  data-aos="fade-up"
-                  data-aos-delay="200"
-                >
-                  <i class="faq-icon bi bi-question-circle"></i>
-                  <h3>¿Qué es el hormigón?</h3>
-                  <div class="faq-content">
-                    <p>
-                      El hormigón es una mezcla de áridos, agua, aditivos y cemento. El hormigón también puede contener otros aditivos como colores minerales, cementos mezclados y escoria de alto horno. Por lo general, se usa en la construcción, incluidos los cimientos, los sótanos, los caminos de entrada y varios otros proyectos de construcción.
-                    </p>
-                  </div>
-                  <i class="faq-toggle bi bi-chevron-right"></i>
-                </div>
-                <!-- End Faq item-->
-
-                <div class="faq-item" data-aos="fade-up" data-aos-delay="300">
-                  <i class="faq-icon bi bi-question-circle"></i>
-                  <h3>
-                    ¿Cuánto cuesta el hormigón fresco?
-                  </h3>
-                  <div class="faq-content">
-                    <p>
-                      Una variedad de factores pueden afectar el costo, por lo que preferimos hablar con usted sobre sus requisitos para ayudarlo a encontrar la mejor y más rentable solución para usted. Por lo general, las cosas que pueden afectar el precio final del hormigón premezclado incluyen la distancia de entrega, el contenido de cemento, las adiciones de fibras o aditivos y el tiempo de entrega.
-                    </p>
-                  </div>
-                  <i class="faq-toggle bi bi-chevron-right"></i>
-                </div>
-                <!-- End Faq item-->
-
-                <div class="faq-item" data-aos="fade-up" data-aos-delay="400">
-                  <i class="faq-icon bi bi-question-circle"></i>
-                  <h3>
-                    ¿Cuánto hormigón necesito?
-                  </h3>
-                  <div class="faq-content">
-                    <p>
-                      Las cantidades de hormigón premezclado se calculan multiplicando largo x ancho x profundidad en metros cúbicos (m3). Para ayudarlo a calcular la cantidad de hormigón que necesita para un trabajo, le proporcionamos una útil calculadora de hormigón para ayudarlo a garantizar que obtenga el volumen que necesita. 
-                    </p>
-                  </div>
-                  <i class="faq-toggle bi bi-chevron-right"></i>
-                </div>
-                <!-- End Faq item-->
-
-                <div class="faq-item" data-aos="fade-up" data-aos-delay="500">
-                  <i class="faq-icon bi bi-question-circle"></i>
-                  <h3>
-                    ¿Cuándo necesito añadir refuerzo de acero?
-                  </h3>
-                  <div class="faq-content">
-                    <p>
-                      Cualquier requisito de refuerzo de malla de acero será decidido durante la etapa de planificación por el arquitecto, ingeniero o autoridad local. Puede haber alternativas, incluido el uso de hormigón de fibra, pero esto dependerá del proyecto específico y de las condiciones locales del terreno. 
-
-Si se utiliza acero, es importante notificar al proveedor de hormigón antes de realizar el pedido, ya que esto puede influir en la selección de ciertos ingredientes de la mezcla.
-                    </p>
-                  </div>
-                  <i class="faq-toggle bi bi-chevron-right"></i>
-                </div>
-                <!-- End Faq item-->
-
-                <div class="faq-item" data-aos="fade-up" data-aos-delay="600">
-                  <i class="faq-icon bi bi-question-circle"></i>
-                  <h3>
-                    ¿Qué significa "curar" el hormigón? 
-                  </h3>
-                  <div class="faq-content">
-                    <p>
-                      Curado del hormigón es el término utilizado para evitar que el hormigón nuevo se seque demasiado rápido. Esto se hace porque, si se deja secar por sí solo, el hormigón no desarrollará la unión completa entre todos sus ingredientes. Será más débil y más propenso a agrietarse. 
-
-La forma más sencilla de curar el hormigón es colocar una lámina de polietileno sobre la losa durante siete días en verano y 10 en invierno. Si existe riesgo de congelación, deje un espacio de aire colocando la hoja sobre listones de madera
-                    </p>
-                  </div>
-                  <i class="faq-toggle bi bi-chevron-right"></i>
-                </div>
-                <!-- End Faq item-->
-
-                <div class="faq-item" data-aos="fade-up" data-aos-delay="600">
-                  <i class="faq-icon bi bi-question-circle"></i>
-                  <h3>
-                    ¿Cuál es la diferencia entre cemento y hormigón?
-                  </h3>
-                  <div class="faq-content">
-                    <p>
-                      El hormigón es el producto acabado, como las aceras, los cimientos y la superficie de muchos caminos. El hormigón contiene arena, grava y cemento. El cemento es el ingrediente endurecedor especial (el polvo gris) que hace que el hormigón se endurezca. El cemento generalmente está hecho de 60% de cal (piedra caliza), 25% de sílice, 5% de alúmina y 10% de otros materiales, como yeso y óxido de hierro. (Contenido proporcionado por el Instituto de Información Mineral, © 2002 )
-                    </p>
-                  </div>
-                  <i class="faq-toggle bi bi-chevron-right"></i>
-                </div>
-                <!-- End Faq item-->
-
-                <div class="faq-item" data-aos="fade-up" data-aos-delay="600">
-                  <i class="faq-icon bi bi-question-circle"></i>
-                  <h3>
-                    ¿Cuáles son los principales beneficios y aplicaciones del hormigón?
-                  </h3>
-                  <div class="faq-content">
-                    <p>
-                      Teniendo en cuenta que el hormigón es el producto más consumido de la tierra después del agua, la utilización de este producto requiere un alto grado de especialización debido a sus múltiples y variadas aplicaciones. El hormigón tiene un amplio uso en el sector de la construcción. Este material es utilizado principalmente para la construcción de casas y edificios, puentes, presas, túneles, obras industriales, obras marítimas, etc. 
-                    </p>
-                  </div>
-                  <i class="faq-toggle bi bi-chevron-right"></i>
-                </div>
-                <!-- End Faq item-->
-
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- /Faq 2 Section -->
-
-      <!-- Portfolio Section -->
-      <section id="portfolio" class="portfolio section">
-        <div class="container section-title" data-aos="fade-up">
-          <h2>Multimedia</h2>
-        </div>
-
-        <div class="container">
-
-            <div
-              class="row gy-4 isotope-container"
-              data-aos="fade-up"
-              data-aos-delay="200"
-            >
-              <div
-                class="col-lg-6 col-md-6 portfolio-item isotope-item filter-app"
-              >
-                <img
-                  src="assets/img/homemarche/lamarchesina01.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-              <!-- End Portfolio Item -->
-
-              <div
-                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product"
-              >
-                <img
-                  src="assets/img/homemarche/lamarchesina02-1024x576.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-              <!-- End Portfolio Item -->
-
-              <div
-                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding"
-              >
-                <img
-                  src="assets/img/homemarche/lamarchesina19-1024x683.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-              <!-- End Portfolio Item -->
-
-              <div
-                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app"
-              >
-                <img
-                  src="assets/img/homemarche/lamarchesina06-1024x576.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-              <!-- End Portfolio Item -->
-
-              <div
-                class="col-lg-6 col-md-6 portfolio-item isotope-item filter-product"
-              >
-                <img
-                  src="assets/img/homemarche/lamarchesina17-1024x683.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-              <!-- End Portfolio Item -->
-
-              <div
-                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding"
-              >
-                <img
-                  src="assets/img/homemarche/lamarchesina08-1024x768.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-              <!-- End Portfolio Item -->
-
-              <div
-                class="col-lg-3 col-md-6 portfolio-item isotope-item filter-app"
-              >
-                <img
-                  src="assets/img/homemarche/lamarchesina11-1024x768.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-              <!-- End Portfolio Item -->
-
-              <div
-                class="col-lg-3 col-md-6 portfolio-item isotope-item filter-product"
-              >
-                <img
-                  src="assets/img/homemarche/lamarchesina10-1024x576.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-              <!-- End Portfolio Item -->
-
-              <div
-                class="col-lg-6 col-md-6 portfolio-item isotope-item filter-branding"
-              >
-                <img
-                  src="assets/img/homemarche/lamarchesina09-1024x576.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-              <!-- End Portfolio Item -->
-            </div>
-            <!-- End Portfolio Container -->
-          </div>
-        </div>
-      </section>
-      <!-- /Portfolio Section -->
-
-      <!-- Call To Action Section -->
-      <section
-        id="call-to-action"
-        class="call-to-action section dark-background"
-      >
-        <img src="assets/img/homemarche/lamarchesina19.jpg" alt="" />
-
-        <div class="container">
-          <div class="row" data-aos="zoom-in" data-aos-delay="100">
-            <div class="col-xl-9 text-center text-xl-start">
-              <h3>Cotiza con Nosotros</h3>
-              <p>
-                Ingresa tus datos de contacto y el detalle de la cotizacion y un representante de ventas se va a poner en contacto.
-              </p>
-            </div>
-            <div class="col-xl-3 cta-btn-container text-center">
-              <a class="cta-btn align-middle hovercotiza" style="background-color: #389837" href="#">Cotizar</a>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- /Call To Action Section -->
-
-      <!-- Testimonials Section -->
-      <section id="testimonials" class="testimonials section">
-        <!-- Section Title -->
-        <div class="container section-title" data-aos="fade-up">
-          <h2>Testimonials</h2>
-          <p>
-            Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
-            consectetur velit
-          </p>
-        </div>
-        <!-- End Section Title -->
-
-        <div class="container" data-aos="fade-up" data-aos-delay="100">
-          <div class="swiper init-swiper">
-            <script type="application/json" class="swiper-config">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
               {
                 "loop": true,
-                "speed": 600,
+                "speed": 650,
                 "autoplay": {
-                  "delay": 5000
+                  "delay": 7000
                 },
                 "slidesPerView": "auto",
                 "pagination": {
@@ -834,306 +785,710 @@ La forma más sencilla de curar el hormigón es colocar una lámina de polietile
                 }
               }
             </script>
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <div class="testimonial-item">
-                  <img
-                    src="assets/img/testimonials/testimonials-1.jpg"
-                    class="testimonial-img"
-                    alt=""
-                  />
-                  <h3>Saul Goodman</h3>
-                  <h4>Ceo &amp; Founder</h4>
-                  <div class="stars">
-                    <i class="bi bi-star-fill"></i
-                    ><i class="bi bi-star-fill"></i
-                    ><i class="bi bi-star-fill"></i
-                    ><i class="bi bi-star-fill"></i
-                    ><i class="bi bi-star-fill"></i>
-                  </div>
-                  <p>
-                    <i class="bi bi-quote quote-icon-left"></i>
-                    <span
-                      >Proin iaculis purus consequat sem cure digni ssim donec
-                      porttitora entum suscipit rhoncus. Accusantium quam,
-                      ultricies eget id, aliquam eget nibh et. Maecen aliquam,
-                      risus at semper.</span
-                    >
-                    <i class="bi bi-quote quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-              <!-- End testimonial item -->
+          <div class="swiper-wrapper">
 
-              <div class="swiper-slide">
-                <div class="testimonial-item">
-                  <img
-                    src="assets/img/testimonials/testimonials-2.jpg"
-                    class="testimonial-img"
-                    alt=""
-                  />
-                  <h3>Sara Wilsson</h3>
-                  <h4>Designer</h4>
-                  <div class="stars">
-                    <i class="bi bi-star-fill"></i
-                    ><i class="bi bi-star-fill"></i
-                    ><i class="bi bi-star-fill"></i
-                    ><i class="bi bi-star-fill"></i
-                    ><i class="bi bi-star-fill"></i>
-                  </div>
-                  <p>
-                    <i class="bi bi-quote quote-icon-left"></i>
-                    <span
-                      >Export tempor illum tamen malis malis eram quae irure
-                      esse labore quem cillum quid cillum eram malis quorum
-                      velit fore eram velit sunt aliqua noster fugiat irure amet
-                      legam anim culpa.</span
-                    >
-                    <i class="bi bi-quote quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-              <!-- End testimonial item -->
 
-              <div class="swiper-slide">
-                <div class="testimonial-item">
-                  <img
-                    src="assets/img/testimonials/testimonials-3.jpg"
-                    class="testimonial-img"
-                    alt=""
-                  />
-                  <h3>Jena Karlis</h3>
-                  <h4>Store Owner</h4>
-                  <div class="stars">
-                    <i class="bi bi-star-fill"></i
-                    ><i class="bi bi-star-fill"></i
-                    ><i class="bi bi-star-fill"></i
-                    ><i class="bi bi-star-fill"></i
-                    ><i class="bi bi-star-fill"></i>
-                  </div>
-                  <p>
-                    <i class="bi bi-quote quote-icon-left"></i>
-                    <span
-                      >Enim nisi quem export duis labore cillum quae magna enim
-                      sint quorum nulla quem veniam duis minim tempor labore
-                      quem eram duis noster aute amet eram fore quis sint
-                      minim.</span
-                    >
-                    <i class="bi bi-quote quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-              <!-- End testimonial item -->
 
-              <div class="swiper-slide">
-                <div class="testimonial-item">
-                  <img
-                    src="assets/img/testimonials/testimonials-4.jpg"
-                    class="testimonial-img"
-                    alt=""
-                  />
-                  <h3>Matt Brandon</h3>
-                  <h4>Freelancer</h4>
-                  <div class="stars">
-                    <i class="bi bi-star-fill"></i
-                    ><i class="bi bi-star-fill"></i
-                    ><i class="bi bi-star-fill"></i
-                    ><i class="bi bi-star-fill"></i
-                    ><i class="bi bi-star-fill"></i>
-                  </div>
-                  <p>
-                    <i class="bi bi-quote quote-icon-left"></i>
-                    <span
-                      >Fugiat enim eram quae cillum dolore dolor amet nulla
-                      culpa multos export minim fugiat minim velit minim dolor
-                      enim duis veniam ipsum anim magna sunt elit fore quem
-                      dolore labore illum veniam.</span
-                    >
-                    <i class="bi bi-quote quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-              <!-- End testimonial item -->
 
-              <div class="swiper-slide">
-                <div class="testimonial-item">
-                  <img
-                    src="assets/img/testimonials/testimonials-5.jpg"
-                    class="testimonial-img"
-                    alt=""
-                  />
-                  <h3>John Larson</h3>
-                  <h4>Entrepreneur</h4>
-                  <div class="stars">
-                    <i class="bi bi-star-fill"></i
-                    ><i class="bi bi-star-fill"></i
-                    ><i class="bi bi-star-fill"></i
-                    ><i class="bi bi-star-fill"></i
-                    ><i class="bi bi-star-fill"></i>
-                  </div>
-                  <p>
-                    <i class="bi bi-quote quote-icon-left"></i>
-                    <span
-                      >Quis quorum aliqua sint quem legam fore sunt eram irure
-                      aliqua veniam tempor noster veniam enim culpa labore duis
-                      sunt culpa nulla illum cillum fugiat legam esse veniam
-                      culpa fore nisi cillum quid.</span
-                    >
-                    <i class="bi bi-quote quote-icon-right"></i>
-                  </p>
-                </div>
+
+            <div class="swiper-slide">
+              <div class="card" style="border: none;">
+                <img src="assets/img/homemarche/lamarchesina23-1024x576.jpg" class="card-img-top mx-auto d-block"
+                  style="max-width: 60%; width: 800px; height: 400px;" alt="" />
+                <h3 class="text-center pt-3">PLANTAS HORMIGONERAS</h3>
+                <p class="text-center mx-auto d-block" style="max-width: 80%;">
+                  <span>
+                    La Marchesina tiene su casa central en la ciudad de Villa María, pero además cuenta con 10 plantas,
+                    que producen hormigón, en distintos puntos de la provincia de Córdoba para poder satisfacer la
+                    demanda de todos nuestros clientes.
+                    Las mismas están ubicadas en: General Cabrera, Dalmacio Vélez Sarsfield, Chazón, Bell Ville, Las
+                    Varillas, San Francisco, Oncativo, Córdoba, Malagueño y Jesús María. Cubriendo un radio, entre todas
+                    las plantas superior a los 200 kilómetros.
+                    Desde La Marchesina buscamos de esta manera llegar con nuestro hormigón a la mayor cantidad de
+                    clientes que necesitan de nuestro servicio, para de esta manera seguir siendo líderes en hormigón
+                    elaborado en Córdoba.
+                    Para cualquier consulta se pueden comunicar con cada una de las plantas con los diferentes números
+                    que aparecen en nuestra página
+                  </span>
+                </p>
               </div>
-              <!-- End testimonial item -->
             </div>
-            <div class="swiper-pagination"></div>
+            <!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="card" style="border: none;">
+                <img src="assets/img/homemarche/bloks.jpg" class="card-img-top mx-auto d-block"
+                  style="max-width: 60%; width: 800px; height: 400px;" alt="" />
+                <h3 class="text-center pt-3">LADRILLOS BLOCK Y ADOQUINES</h3>
+                <p class="text-center mx-auto d-block" style="max-width: 80%;">
+                  <span>
+                    La Marchesina cuenta con su propia fábrica de ladrillos block y adoquines. Allí se realizan los
+                    diferentes tipos de bloques para muros y techos dentro de los cuales están: los bloques portantes
+                    para paredes de 13 y 20 cm., los de 20 cm. con rebaje central también conocidos como U, los de 10
+                    cm. para losa con viguetas, bloque mitad para muro de 20 cm con frente debilitado y por último
+                    bloque para muro símil piedra de 20 cm.
+
+                    Además están los adoquines para pavimento intertrabado que tiene dos variedades: los adoquines
+                    holando de 8 y 6 cm. y los denominados uni también de las mismas dimensiones. En nuestra sección de
+                    productos y servicios podes encontrar sus características y especificaciones.
+                  </span>
+                </p>
+              </div>
+            </div>
+            <!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="card" style="border: none;">
+                <img src="assets/img/homemarche/lamarchesina23-1024x576.jpg" class="card-img-top mx-auto d-block"
+                  style="max-width: 60%;" alt="" />
+                <h3 class="text-center pt-3">PLANTAS HORMIGONERAS</h3>
+                <p class="text-center mx-auto d-block" style="max-width: 80%;">
+                  <span>
+                    La Marchesina tiene su casa central en la ciudad de Villa María, pero además cuenta con 10 plantas,
+                    que producen hormigón, en distintos puntos de la provincia de Córdoba para poder satisfacer la
+                    demanda de todos nuestros clientes.
+                    Las mismas están ubicadas en: General Cabrera, Dalmacio Vélez Sarsfield, Chazón, Bell Ville, Las
+                    Varillas, San Francisco, Oncativo, Córdoba, Malagueño y Jesús María. Cubriendo un radio, entre todas
+                    las plantas superior a los 200 kilómetros.
+                    Desde La Marchesina buscamos de esta manera llegar con nuestro hormigón a la mayor cantidad de
+                    clientes que necesitan de nuestro servicio, para de esta manera seguir siendo líderes en hormigón
+                    elaborado en Córdoba.
+                    Para cualquier consulta se pueden comunicar con cada una de las plantas con los diferentes números
+                    que aparecen en nuestra página
+                  </span>
+                </p>
+              </div>
+            </div>
+            <!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="card" style="border: none;">
+                <img src="assets/img/homemarche/lamarchesina23-1024x576.jpg" class="card-img-top mx-auto d-block"
+                  style="max-width: 60%;" alt="" />
+                <h3 class="text-center pt-3">PLANTAS HORMIGONERAS</h3>
+                <p class="text-center mx-auto d-block" style="max-width: 80%;">
+                  <span>
+                    La Marchesina tiene su casa central en la ciudad de Villa María, pero además cuenta con 10 plantas,
+                    que producen hormigón, en distintos puntos de la provincia de Córdoba para poder satisfacer la
+                    demanda de todos nuestros clientes.
+                    Las mismas están ubicadas en: General Cabrera, Dalmacio Vélez Sarsfield, Chazón, Bell Ville, Las
+                    Varillas, San Francisco, Oncativo, Córdoba, Malagueño y Jesús María. Cubriendo un radio, entre todas
+                    las plantas superior a los 200 kilómetros.
+                    Desde La Marchesina buscamos de esta manera llegar con nuestro hormigón a la mayor cantidad de
+                    clientes que necesitan de nuestro servicio, para de esta manera seguir siendo líderes en hormigón
+                    elaborado en Córdoba.
+                    Para cualquier consulta se pueden comunicar con cada una de las plantas con los diferentes números
+                    que aparecen en nuestra página
+                  </span>
+                </p>
+              </div>
+            </div>
+            <!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="card" style="border: none;">
+                <img src="assets/img/homemarche/lamarchesina23-1024x576.jpg" class="card-img-top mx-auto d-block"
+                  style="max-width: 60%;" alt="" />
+                <h3 class="text-center pt-3">PLANTAS HORMIGONERAS</h3>
+                <p class="text-center mx-auto d-block" style="max-width: 80%;">
+                  <span>
+                    La Marchesina tiene su casa central en la ciudad de Villa María, pero además cuenta con 10 plantas,
+                    que producen hormigón, en distintos puntos de la provincia de Córdoba para poder satisfacer la
+                    demanda de todos nuestros clientes.
+                    Las mismas están ubicadas en: General Cabrera, Dalmacio Vélez Sarsfield, Chazón, Bell Ville, Las
+                    Varillas, San Francisco, Oncativo, Córdoba, Malagueño y Jesús María. Cubriendo un radio, entre todas
+                    las plantas superior a los 200 kilómetros.
+                    Desde La Marchesina buscamos de esta manera llegar con nuestro hormigón a la mayor cantidad de
+                    clientes que necesitan de nuestro servicio, para de esta manera seguir siendo líderes en hormigón
+                    elaborado en Córdoba.
+                    Para cualquier consulta se pueden comunicar con cada una de las plantas con los diferentes números
+                    que aparecen en nuestra página
+                  </span>
+                </p>
+              </div>
+            </div>
+            <!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="card" style="border: none;">
+                <img src="assets/img/homemarche/lamarchesina23-1024x576.jpg" class="card-img-top mx-auto d-block"
+                  style="max-width: 60%;" alt="" />
+                <h3 class="text-center pt-3">PLANTAS HORMIGONERAS</h3>
+                <p class="text-center mx-auto d-block" style="max-width: 80%;">
+                  <span>
+                    La Marchesina tiene su casa central en la ciudad de Villa María, pero además cuenta con 10 plantas,
+                    que producen hormigón, en distintos puntos de la provincia de Córdoba para poder satisfacer la
+                    demanda de todos nuestros clientes.
+                    Las mismas están ubicadas en: General Cabrera, Dalmacio Vélez Sarsfield, Chazón, Bell Ville, Las
+                    Varillas, San Francisco, Oncativo, Córdoba, Malagueño y Jesús María. Cubriendo un radio, entre todas
+                    las plantas superior a los 200 kilómetros.
+                    Desde La Marchesina buscamos de esta manera llegar con nuestro hormigón a la mayor cantidad de
+                    clientes que necesitan de nuestro servicio, para de esta manera seguir siendo líderes en hormigón
+                    elaborado en Córdoba.
+                    Para cualquier consulta se pueden comunicar con cada una de las plantas con los diferentes números
+                    que aparecen en nuestra página
+                  </span>
+                </p>
+              </div>
+            </div>
+            <!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="card" style="border: none;">
+                <img src="assets/img/homemarche/lamarchesina23-1024x576.jpg" class="card-img-top mx-auto d-block"
+                  style="max-width: 60%;" alt="" />
+                <h3 class="text-center pt-3">PLANTAS HORMIGONERAS</h3>
+                <p class="text-center mx-auto d-block" style="max-width: 80%;">
+                  <span>
+                    La Marchesina tiene su casa central en la ciudad de Villa María, pero además cuenta con 10 plantas,
+                    que producen hormigón, en distintos puntos de la provincia de Córdoba para poder satisfacer la
+                    demanda de todos nuestros clientes.
+                    Las mismas están ubicadas en: General Cabrera, Dalmacio Vélez Sarsfield, Chazón, Bell Ville, Las
+                    Varillas, San Francisco, Oncativo, Córdoba, Malagueño y Jesús María. Cubriendo un radio, entre todas
+                    las plantas superior a los 200 kilómetros.
+                    Desde La Marchesina buscamos de esta manera llegar con nuestro hormigón a la mayor cantidad de
+                    clientes que necesitan de nuestro servicio, para de esta manera seguir siendo líderes en hormigón
+                    elaborado en Córdoba.
+                    Para cualquier consulta se pueden comunicar con cada una de las plantas con los diferentes números
+                    que aparecen en nuestra página
+                  </span>
+                </p>
+              </div>
+            </div>
+            <!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="card" style="border: none;">
+                <img src="assets/img/homemarche/lamarchesina23-1024x576.jpg" class="card-img-top mx-auto d-block"
+                  style="max-width: 60%;" alt="" />
+                <h3 class="text-center pt-3">PLANTAS HORMIGONERAS</h3>
+                <p class="text-center mx-auto d-block" style="max-width: 80%;">
+                  <span>
+                    La Marchesina tiene su casa central en la ciudad de Villa María, pero además cuenta con 10 plantas,
+                    que producen hormigón, en distintos puntos de la provincia de Córdoba para poder satisfacer la
+                    demanda de todos nuestros clientes.
+                    Las mismas están ubicadas en: General Cabrera, Dalmacio Vélez Sarsfield, Chazón, Bell Ville, Las
+                    Varillas, San Francisco, Oncativo, Córdoba, Malagueño y Jesús María. Cubriendo un radio, entre todas
+                    las plantas superior a los 200 kilómetros.
+                    Desde La Marchesina buscamos de esta manera llegar con nuestro hormigón a la mayor cantidad de
+                    clientes que necesitan de nuestro servicio, para de esta manera seguir siendo líderes en hormigón
+                    elaborado en Córdoba.
+                    Para cualquier consulta se pueden comunicar con cada una de las plantas con los diferentes números
+                    que aparecen en nuestra página
+                  </span>
+                </p>
+              </div>
+            </div>
+            <!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="card" style="border: none;">
+                <img src="assets/img/homemarche/lamarchesina23-1024x576.jpg" class="card-img-top mx-auto d-block"
+                  style="max-width: 60%;" alt="" />
+                <h3 class="text-center pt-3">PLANTAS HORMIGONERAS</h3>
+                <p class="text-center mx-auto d-block" style="max-width: 80%;">
+                  <span>
+                    La Marchesina tiene su casa central en la ciudad de Villa María, pero además cuenta con 10 plantas,
+                    que producen hormigón, en distintos puntos de la provincia de Córdoba para poder satisfacer la
+                    demanda de todos nuestros clientes.
+                    Las mismas están ubicadas en: General Cabrera, Dalmacio Vélez Sarsfield, Chazón, Bell Ville, Las
+                    Varillas, San Francisco, Oncativo, Córdoba, Malagueño y Jesús María. Cubriendo un radio, entre todas
+                    las plantas superior a los 200 kilómetros.
+                    Desde La Marchesina buscamos de esta manera llegar con nuestro hormigón a la mayor cantidad de
+                    clientes que necesitan de nuestro servicio, para de esta manera seguir siendo líderes en hormigón
+                    elaborado en Córdoba.
+                    Para cualquier consulta se pueden comunicar con cada una de las plantas con los diferentes números
+                    que aparecen en nuestra página
+                  </span>
+                </p>
+              </div>
+            </div>
+            <!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="card" style="border: none;">
+                <img src="assets/img/homemarche/lamarchesina23-1024x576.jpg" class="card-img-top mx-auto d-block"
+                  style="max-width: 60%;" alt="" />
+                <h3 class="text-center pt-3">PLANTAS HORMIGONERAS</h3>
+                <p class="text-center mx-auto d-block" style="max-width: 80%;">
+                  <span>
+                    La Marchesina tiene su casa central en la ciudad de Villa María, pero además cuenta con 10 plantas,
+                    que producen hormigón, en distintos puntos de la provincia de Córdoba para poder satisfacer la
+                    demanda de todos nuestros clientes.
+                    Las mismas están ubicadas en: General Cabrera, Dalmacio Vélez Sarsfield, Chazón, Bell Ville, Las
+                    Varillas, San Francisco, Oncativo, Córdoba, Malagueño y Jesús María. Cubriendo un radio, entre todas
+                    las plantas superior a los 200 kilómetros.
+                    Desde La Marchesina buscamos de esta manera llegar con nuestro hormigón a la mayor cantidad de
+                    clientes que necesitan de nuestro servicio, para de esta manera seguir siendo líderes en hormigón
+                    elaborado en Córdoba.
+                    Para cualquier consulta se pueden comunicar con cada una de las plantas con los diferentes números
+                    que aparecen en nuestra página
+                  </span>
+                </p>
+              </div>
+            </div>
+            <!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="card" style="border: none;">
+                <img src="assets/img/homemarche/lamarchesina23-1024x576.jpg" class="card-img-top mx-auto d-block"
+                  style="max-width: 60%;" alt="" />
+                <h3 class="text-center pt-3">PLANTAS HORMIGONERAS</h3>
+                <p class="text-center mx-auto d-block" style="max-width: 80%;">
+                  <span>
+                    La Marchesina tiene su casa central en la ciudad de Villa María, pero además cuenta con 10 plantas,
+                    que producen hormigón, en distintos puntos de la provincia de Córdoba para poder satisfacer la
+                    demanda de todos nuestros clientes.
+                    Las mismas están ubicadas en: General Cabrera, Dalmacio Vélez Sarsfield, Chazón, Bell Ville, Las
+                    Varillas, San Francisco, Oncativo, Córdoba, Malagueño y Jesús María. Cubriendo un radio, entre todas
+                    las plantas superior a los 200 kilómetros.
+                    Desde La Marchesina buscamos de esta manera llegar con nuestro hormigón a la mayor cantidad de
+                    clientes que necesitan de nuestro servicio, para de esta manera seguir siendo líderes en hormigón
+                    elaborado en Córdoba.
+                    Para cualquier consulta se pueden comunicar con cada una de las plantas con los diferentes números
+                    que aparecen en nuestra página
+                  </span>
+                </p>
+              </div>
+            </div>
+            <!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="card" style="border: none;">
+                <img src="assets/img/homemarche/lamarchesina23-1024x576.jpg" class="card-img-top mx-auto d-block"
+                  style="max-width: 60%;" alt="" />
+                <h3 class="text-center pt-3">PLANTAS HORMIGONERAS</h3>
+                <p class="text-center mx-auto d-block" style="max-width: 80%;">
+                  <span>
+                    La Marchesina tiene su casa central en la ciudad de Villa María, pero además cuenta con 10 plantas,
+                    que producen hormigón, en distintos puntos de la provincia de Córdoba para poder satisfacer la
+                    demanda de todos nuestros clientes.
+                    Las mismas están ubicadas en: General Cabrera, Dalmacio Vélez Sarsfield, Chazón, Bell Ville, Las
+                    Varillas, San Francisco, Oncativo, Córdoba, Malagueño y Jesús María. Cubriendo un radio, entre todas
+                    las plantas superior a los 200 kilómetros.
+                    Desde La Marchesina buscamos de esta manera llegar con nuestro hormigón a la mayor cantidad de
+                    clientes que necesitan de nuestro servicio, para de esta manera seguir siendo líderes en hormigón
+                    elaborado en Córdoba.
+                    Para cualquier consulta se pueden comunicar con cada una de las plantas con los diferentes números
+                    que aparecen en nuestra página
+                  </span>
+                </p>
+              </div>
+            </div>
+            <!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="card" style="border: none;">
+                <img src="assets/img/homemarche/lamarchesina23-1024x576.jpg" class="card-img-top mx-auto d-block"
+                  style="max-width: 60%;" alt="" />
+                <h3 class="text-center pt-3">PLANTAS HORMIGONERAS</h3>
+                <p class="text-center mx-auto d-block" style="max-width: 80%;">
+                  <span>
+                    La Marchesina tiene su casa central en la ciudad de Villa María, pero además cuenta con 10 plantas,
+                    que producen hormigón, en distintos puntos de la provincia de Córdoba para poder satisfacer la
+                    demanda de todos nuestros clientes.
+                    Las mismas están ubicadas en: General Cabrera, Dalmacio Vélez Sarsfield, Chazón, Bell Ville, Las
+                    Varillas, San Francisco, Oncativo, Córdoba, Malagueño y Jesús María. Cubriendo un radio, entre todas
+                    las plantas superior a los 200 kilómetros.
+                    Desde La Marchesina buscamos de esta manera llegar con nuestro hormigón a la mayor cantidad de
+                    clientes que necesitan de nuestro servicio, para de esta manera seguir siendo líderes en hormigón
+                    elaborado en Córdoba.
+                    Para cualquier consulta se pueden comunicar con cada una de las plantas con los diferentes números
+                    que aparecen en nuestra página
+                  </span>
+                </p>
+              </div>
+            </div>
+            <!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="card" style="border: none;">
+                <img src="assets/img/homemarche/lamarchesina23-1024x576.jpg" class="card-img-top mx-auto d-block"
+                  style="max-width: 60%;" alt="" />
+                <h3 class="text-center pt-3">PLANTAS HORMIGONERAS</h3>
+                <p class="text-center mx-auto d-block" style="max-width: 80%;">
+                  <span>
+                    La Marchesina tiene su casa central en la ciudad de Villa María, pero además cuenta con 10 plantas,
+                    que producen hormigón, en distintos puntos de la provincia de Córdoba para poder satisfacer la
+                    demanda de todos nuestros clientes.
+                    Las mismas están ubicadas en: General Cabrera, Dalmacio Vélez Sarsfield, Chazón, Bell Ville, Las
+                    Varillas, San Francisco, Oncativo, Córdoba, Malagueño y Jesús María. Cubriendo un radio, entre todas
+                    las plantas superior a los 200 kilómetros.
+                    Desde La Marchesina buscamos de esta manera llegar con nuestro hormigón a la mayor cantidad de
+                    clientes que necesitan de nuestro servicio, para de esta manera seguir siendo líderes en hormigón
+                    elaborado en Córdoba.
+                    Para cualquier consulta se pueden comunicar con cada una de las plantas con los diferentes números
+                    que aparecen en nuestra página
+                  </span>
+                </p>
+              </div>
+            </div>
+            <!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="card" style="border: none;">
+                <img src="assets/img/homemarche/lamarchesina23-1024x576.jpg" class="card-img-top mx-auto d-block"
+                  style="max-width: 60%;" alt="" />
+                <h3 class="text-center pt-3">PLANTAS HORMIGONERAS</h3>
+                <p class="text-center mx-auto d-block" style="max-width: 80%;">
+                  <span>
+                    La Marchesina tiene su casa central en la ciudad de Villa María, pero además cuenta con 10 plantas,
+                    que producen hormigón, en distintos puntos de la provincia de Córdoba para poder satisfacer la
+                    demanda de todos nuestros clientes.
+                    Las mismas están ubicadas en: General Cabrera, Dalmacio Vélez Sarsfield, Chazón, Bell Ville, Las
+                    Varillas, San Francisco, Oncativo, Córdoba, Malagueño y Jesús María. Cubriendo un radio, entre todas
+                    las plantas superior a los 200 kilómetros.
+                    Desde La Marchesina buscamos de esta manera llegar con nuestro hormigón a la mayor cantidad de
+                    clientes que necesitan de nuestro servicio, para de esta manera seguir siendo líderes en hormigón
+                    elaborado en Córdoba.
+                    Para cualquier consulta se pueden comunicar con cada una de las plantas con los diferentes números
+                    que aparecen en nuestra página
+                  </span>
+                </p>
+              </div>
+            </div>
+            <!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="card" style="border: none;">
+                <img src="assets/img/homemarche/lamarchesina23-1024x576.jpg" class="card-img-top mx-auto d-block"
+                  style="max-width: 60%;" alt="" />
+                <h3 class="text-center pt-3">PLANTAS HORMIGONERAS</h3>
+                <p class="text-center mx-auto d-block" style="max-width: 80%;">
+                  <span>
+                    La Marchesina tiene su casa central en la ciudad de Villa María, pero además cuenta con 10 plantas,
+                    que producen hormigón, en distintos puntos de la provincia de Córdoba para poder satisfacer la
+                    demanda de todos nuestros clientes.
+                    Las mismas están ubicadas en: General Cabrera, Dalmacio Vélez Sarsfield, Chazón, Bell Ville, Las
+                    Varillas, San Francisco, Oncativo, Córdoba, Malagueño y Jesús María. Cubriendo un radio, entre todas
+                    las plantas superior a los 200 kilómetros.
+                    Desde La Marchesina buscamos de esta manera llegar con nuestro hormigón a la mayor cantidad de
+                    clientes que necesitan de nuestro servicio, para de esta manera seguir siendo líderes en hormigón
+                    elaborado en Córdoba.
+                    Para cualquier consulta se pueden comunicar con cada una de las plantas con los diferentes números
+                    que aparecen en nuestra página
+                  </span>
+                </p>
+              </div>
+            </div>
+            <!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="card" style="border: none;">
+                <img src="assets/img/homemarche/lamarchesina23-1024x576.jpg" class="card-img-top mx-auto d-block"
+                  style="max-width: 60%;" alt="" />
+                <h3 class="text-center pt-3">PLANTAS HORMIGONERAS</h3>
+                <p class="text-center mx-auto d-block" style="max-width: 80%;">
+                  <span>
+                    La Marchesina tiene su casa central en la ciudad de Villa María, pero además cuenta con 10 plantas,
+                    que producen hormigón, en distintos puntos de la provincia de Córdoba para poder satisfacer la
+                    demanda de todos nuestros clientes.
+                    Las mismas están ubicadas en: General Cabrera, Dalmacio Vélez Sarsfield, Chazón, Bell Ville, Las
+                    Varillas, San Francisco, Oncativo, Córdoba, Malagueño y Jesús María. Cubriendo un radio, entre todas
+                    las plantas superior a los 200 kilómetros.
+                    Desde La Marchesina buscamos de esta manera llegar con nuestro hormigón a la mayor cantidad de
+                    clientes que necesitan de nuestro servicio, para de esta manera seguir siendo líderes en hormigón
+                    elaborado en Córdoba.
+                    Para cualquier consulta se pueden comunicar con cada una de las plantas con los diferentes números
+                    que aparecen en nuestra página
+                  </span>
+                </p>
+              </div>
+            </div>
+            <!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="card" style="border: none;">
+                <img src="assets/img/homemarche/lamarchesina23-1024x576.jpg" class="card-img-top mx-auto d-block"
+                  style="max-width: 60%;" alt="" />
+                <h3 class="text-center pt-3">PLANTAS HORMIGONERAS</h3>
+                <p class="text-center mx-auto d-block" style="max-width: 80%;">
+                  <span>
+                    La Marchesina tiene su casa central en la ciudad de Villa María, pero además cuenta con 10 plantas,
+                    que producen hormigón, en distintos puntos de la provincia de Córdoba para poder satisfacer la
+                    demanda de todos nuestros clientes.
+                    Las mismas están ubicadas en: General Cabrera, Dalmacio Vélez Sarsfield, Chazón, Bell Ville, Las
+                    Varillas, San Francisco, Oncativo, Córdoba, Malagueño y Jesús María. Cubriendo un radio, entre todas
+                    las plantas superior a los 200 kilómetros.
+                    Desde La Marchesina buscamos de esta manera llegar con nuestro hormigón a la mayor cantidad de
+                    clientes que necesitan de nuestro servicio, para de esta manera seguir siendo líderes en hormigón
+                    elaborado en Córdoba.
+                    Para cualquier consulta se pueden comunicar con cada una de las plantas con los diferentes números
+                    que aparecen en nuestra página
+                  </span>
+                </p>
+              </div>
+            </div>
+            <!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="card" style="border: none;">
+                <img src="assets/img/homemarche/lamarchesina23-1024x576.jpg" class="card-img-top mx-auto d-block"
+                  style="max-width: 60%;" alt="" />
+                <h3 class="text-center pt-3">PLANTAS HORMIGONERAS</h3>
+                <p class="text-center mx-auto d-block" style="max-width: 80%;">
+                  <span>
+                    La Marchesina tiene su casa central en la ciudad de Villa María, pero además cuenta con 10 plantas,
+                    que producen hormigón, en distintos puntos de la provincia de Córdoba para poder satisfacer la
+                    demanda de todos nuestros clientes.
+                    Las mismas están ubicadas en: General Cabrera, Dalmacio Vélez Sarsfield, Chazón, Bell Ville, Las
+                    Varillas, San Francisco, Oncativo, Córdoba, Malagueño y Jesús María. Cubriendo un radio, entre todas
+                    las plantas superior a los 200 kilómetros.
+                    Desde La Marchesina buscamos de esta manera llegar con nuestro hormigón a la mayor cantidad de
+                    clientes que necesitan de nuestro servicio, para de esta manera seguir siendo líderes en hormigón
+                    elaborado en Córdoba.
+                    Para cualquier consulta se pueden comunicar con cada una de las plantas con los diferentes números
+                    que aparecen en nuestra página
+                  </span>
+                </p>
+              </div>
+            </div>
+            <!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="card" style="border: none;">
+                <img src="assets/img/homemarche/lamarchesina23-1024x576.jpg" class="card-img-top mx-auto d-block"
+                  style="max-width: 60%;" alt="" />
+                <h3 class="text-center pt-3">PLANTAS HORMIGONERAS</h3>
+                <p class="text-center mx-auto d-block" style="max-width: 80%;">
+                  <span>
+                    La Marchesina tiene su casa central en la ciudad de Villa María, pero además cuenta con 10 plantas,
+                    que producen hormigón, en distintos puntos de la provincia de Córdoba para poder satisfacer la
+                    demanda de todos nuestros clientes.
+                    Las mismas están ubicadas en: General Cabrera, Dalmacio Vélez Sarsfield, Chazón, Bell Ville, Las
+                    Varillas, San Francisco, Oncativo, Córdoba, Malagueño y Jesús María. Cubriendo un radio, entre todas
+                    las plantas superior a los 200 kilómetros.
+                    Desde La Marchesina buscamos de esta manera llegar con nuestro hormigón a la mayor cantidad de
+                    clientes que necesitan de nuestro servicio, para de esta manera seguir siendo líderes en hormigón
+                    elaborado en Córdoba.
+                    Para cualquier consulta se pueden comunicar con cada una de las plantas con los diferentes números
+                    que aparecen en nuestra página
+                  </span>
+                </p>
+              </div>
+            </div>
+            <!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="card" style="border: none;">
+                <img src="assets/img/homemarche/lamarchesina23-1024x576.jpg" class="card-img-top mx-auto d-block"
+                  style="max-width: 60%;" alt="" />
+                <h3 class="text-center pt-3">PLANTAS HORMIGONERAS</h3>
+                <p class="text-center mx-auto d-block" style="max-width: 80%;">
+                  <span>
+                    La Marchesina tiene su casa central en la ciudad de Villa María, pero además cuenta con 10 plantas,
+                    que producen hormigón, en distintos puntos de la provincia de Córdoba para poder satisfacer la
+                    demanda de todos nuestros clientes.
+                    Las mismas están ubicadas en: General Cabrera, Dalmacio Vélez Sarsfield, Chazón, Bell Ville, Las
+                    Varillas, San Francisco, Oncativo, Córdoba, Malagueño y Jesús María. Cubriendo un radio, entre todas
+                    las plantas superior a los 200 kilómetros.
+                    Desde La Marchesina buscamos de esta manera llegar con nuestro hormigón a la mayor cantidad de
+                    clientes que necesitan de nuestro servicio, para de esta manera seguir siendo líderes en hormigón
+                    elaborado en Córdoba.
+                    Para cualquier consulta se pueden comunicar con cada una de las plantas con los diferentes números
+                    que aparecen en nuestra página
+                  </span>
+                </p>
+              </div>
+            </div>
+            <!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="card" style="border: none;">
+                <img src="assets/img/homemarche/lamarchesina23-1024x576.jpg" class="card-img-top mx-auto d-block"
+                  style="max-width: 60%;" alt="" />
+                <h3 class="text-center pt-3">PLANTAS HORMIGONERAS</h3>
+                <p class="text-center mx-auto d-block" style="max-width: 80%;">
+                  <span>
+                    La Marchesina tiene su casa central en la ciudad de Villa María, pero además cuenta con 10 plantas,
+                    que producen hormigón, en distintos puntos de la provincia de Córdoba para poder satisfacer la
+                    demanda de todos nuestros clientes.
+                    Las mismas están ubicadas en: General Cabrera, Dalmacio Vélez Sarsfield, Chazón, Bell Ville, Las
+                    Varillas, San Francisco, Oncativo, Córdoba, Malagueño y Jesús María. Cubriendo un radio, entre todas
+                    las plantas superior a los 200 kilómetros.
+                    Desde La Marchesina buscamos de esta manera llegar con nuestro hormigón a la mayor cantidad de
+                    clientes que necesitan de nuestro servicio, para de esta manera seguir siendo líderes en hormigón
+                    elaborado en Córdoba.
+                    Para cualquier consulta se pueden comunicar con cada una de las plantas con los diferentes números
+                    que aparecen en nuestra página
+                  </span>
+                </p>
+              </div>
+            </div>
+            <!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="card" style="border: none;">
+                <img src="assets/img/homemarche/lamarchesina23-1024x576.jpg" class="card-img-top mx-auto d-block"
+                  style="max-width: 60%;" alt="" />
+                <h3 class="text-center pt-3">PLANTAS HORMIGONERAS</h3>
+                <p class="text-center mx-auto d-block" style="max-width: 80%;">
+                  <span>
+                    La Marchesina tiene su casa central en la ciudad de Villa María, pero además cuenta con 10 plantas,
+                    que producen hormigón, en distintos puntos de la provincia de Córdoba para poder satisfacer la
+                    demanda de todos nuestros clientes.
+                    Las mismas están ubicadas en: General Cabrera, Dalmacio Vélez Sarsfield, Chazón, Bell Ville, Las
+                    Varillas, San Francisco, Oncativo, Córdoba, Malagueño y Jesús María. Cubriendo un radio, entre todas
+                    las plantas superior a los 200 kilómetros.
+                    Desde La Marchesina buscamos de esta manera llegar con nuestro hormigón a la mayor cantidad de
+                    clientes que necesitan de nuestro servicio, para de esta manera seguir siendo líderes en hormigón
+                    elaborado en Córdoba.
+                    Para cualquier consulta se pueden comunicar con cada una de las plantas con los diferentes números
+                    que aparecen en nuestra página
+                  </span>
+                </p>
+              </div>
+            </div>
+            <!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="card" style="border: none;">
+                <img src="assets/img/homemarche/lamarchesina23-1024x576.jpg" class="card-img-top mx-auto d-block"
+                  style="max-width: 60%;" alt="" />
+                <h3 class="text-center pt-3">PLANTAS HORMIGONERAS</h3>
+                <p class="text-center mx-auto d-block" style="max-width: 80%;">
+                  <span>
+                    La Marchesina tiene su casa central en la ciudad de Villa María, pero además cuenta con 10 plantas,
+                    que producen hormigón, en distintos puntos de la provincia de Córdoba para poder satisfacer la
+                    demanda de todos nuestros clientes.
+                    Las mismas están ubicadas en: General Cabrera, Dalmacio Vélez Sarsfield, Chazón, Bell Ville, Las
+                    Varillas, San Francisco, Oncativo, Córdoba, Malagueño y Jesús María. Cubriendo un radio, entre todas
+                    las plantas superior a los 200 kilómetros.
+                    Desde La Marchesina buscamos de esta manera llegar con nuestro hormigón a la mayor cantidad de
+                    clientes que necesitan de nuestro servicio, para de esta manera seguir siendo líderes en hormigón
+                    elaborado en Córdoba.
+                    Para cualquier consulta se pueden comunicar con cada una de las plantas con los diferentes números
+                    que aparecen en nuestra página
+                  </span>
+                </p>
+              </div>
+            </div>
+            <!-- End testimonial item -->
+
           </div>
+          <div class="swiper-pagination"></div>
         </div>
-      </section>
-      <!-- /Testimonials Section -->
+      </div>
+    </section>
+    <!-- /Testimonials Section -->
 
-      <!-- Contact Section -->
-      <section id="contact" class="contact section">
-        <!-- Section Title -->
-        <div class="container section-title" data-aos="fade-up">
-          <h2>Contact</h2>
-          <p>
-            Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
-            consectetur velit
-          </p>
-        </div>
-        <!-- End Section Title -->
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contactanos</h2>
+      </div>
+      <!-- End Section Title -->
 
-        <div class="container" data-aos="fade-up" data-aos-delay="100">
-          <div class="row gy-4">
-            <div class="col-lg-5">
-              <div class="info-wrap">
-                <div
-                  class="info-item d-flex"
-                  data-aos="fade-up"
-                  data-aos-delay="200"
-                >
-                  <i class="bi bi-geo-alt flex-shrink-0"></i>
-                  <div>
-                    <h3>Address</h3>
-                    <p>A108 Adam Street, New York, NY 535022</p>
-                  </div>
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-4">
+          <div class="col-lg-5">
+            <div class="info-wrap">
+              <h2 style="padding-left: .5rem;">Casa Central</h2>
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+
+                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                <div>
+                  <h3>Direccion</h3>
+                  <p>Calafate y Ruta Nacional N° 158
+                    Villa María, Córdoba (5900)</p>
                 </div>
-                <!-- End Info Item -->
-
-                <div
-                  class="info-item d-flex"
-                  data-aos="fade-up"
-                  data-aos-delay="300"
-                >
-                  <i class="bi bi-telephone flex-shrink-0"></i>
-                  <div>
-                    <h3>Call Us</h3>
-                    <p>+1 5589 55488 55</p>
-                  </div>
-                </div>
-                <!-- End Info Item -->
-
-                <div
-                  class="info-item d-flex"
-                  data-aos="fade-up"
-                  data-aos-delay="400"
-                >
-                  <i class="bi bi-envelope flex-shrink-0"></i>
-                  <div>
-                    <h3>Email Us</h3>
-                    <p>info@example.com</p>
-                  </div>
-                </div>
-                <!-- End Info Item -->
-
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1676961268712!5m2!1sen!2sus"
-                  frameborder="0"
-                  style="border: 0; width: 100%; height: 270px"
-                  allowfullscreen=""
-                  loading="lazy"
-                  referrerpolicy="no-referrer-when-downgrade"
-                ></iframe>
               </div>
-            </div>
+              <!-- End Info Item -->
 
-            <div class="col-lg-7">
-              <form
-                action="forms/contact.php"
-                method="post"
-                class="php-email-form"
-                data-aos="fade-up"
-                data-aos-delay="200"
-              >
-                <div class="row gy-4">
-                  <div class="col-md-6">
-                    <label for="name-field" class="pb-2">Your Name</label>
-                    <input
-                      type="text"
-                      name="name"
-                      id="name-field"
-                      class="form-control"
-                      required=""
-                    />
-                  </div>
-
-                  <div class="col-md-6">
-                    <label for="email-field" class="pb-2">Your Email</label>
-                    <input
-                      type="email"
-                      class="form-control"
-                      name="email"
-                      id="email-field"
-                      required=""
-                    />
-                  </div>
-
-                  <div class="col-md-12">
-                    <label for="subject-field" class="pb-2">Subject</label>
-                    <input
-                      type="text"
-                      class="form-control"
-                      name="subject"
-                      id="subject-field"
-                      required=""
-                    />
-                  </div>
-
-                  <div class="col-md-12">
-                    <label for="message-field" class="pb-2">Message</label>
-                    <textarea
-                      class="form-control"
-                      name="message"
-                      rows="10"
-                      id="message-field"
-                      required=""
-                    ></textarea>
-                  </div>
-
-                  <div class="col-md-12 text-center">
-                    <div class="loading">Loading</div>
-                    <div class="error-message"></div>
-                    <div class="sent-message">
-                      Your message has been sent. Thank you!
-                    </div>
-
-                    <button type="submit">Send Message</button>
-                  </div>
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+                <i class="bi bi-telephone flex-shrink-0"></i>
+                <div>
+                  <h3>Telefono</h3>
+                  <p>(0353) 453-0967 / 453-8408</p>
                 </div>
-              </form>
-            </div>
-            <!-- End Contact Form -->
-          </div>
-        </div>
-      </section>
-      <!-- /Contact Section -->
-    </main>
+              </div>
+              <!-- End Info Item -->
 
-    <footer id="footer" class="footer">
-      <div class="footer-newsletter">
-        <div class="container">
-          <div class="row justify-content-center text-center">
-            <div class="col-lg-6">
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+                <i class="bi bi-envelope flex-shrink-0"></i>
+                <div>
+                  <h3>Email</h3>
+                  <p>ventas@lamarchesina.com.ar</p>
+                </div>
+              </div>
+              <!-- End Info Item -->
+
+              <h2 style="padding-left: .5rem;">Plantas</h2>
+              <div style="padding-left: 3.5rem; font-size: .9rem;">
+                <p style="margin-bottom: 4px;">General Cabrera – (0353) 155629924</p>
+                <p style="margin-bottom: 4px;">Dalmacio Vélez – (0353) 156564460</p>
+                <p style="margin-bottom: 4px;">Las Varillas – (0353) 156564460 / 154820637</p>
+                <p style="margin-bottom: 4px;">Oncativo – (0353) 156564460 / 154820637</p>
+                <p style="margin-bottom: 4px;">Bell Ville – (0353) 154848690</p>
+                <p style="margin-bottom: 4px;">San Francisco – (0353) 156573596</p>
+                <p style="margin-bottom: 4px;">Jesús María – (0353) 4011105 / 353-6578242</p>
+                <p style="margin-bottom: 4px;">Malagueño – (0353) 4015918 / 353-4130846</p>
+                <p style="margin-bottom: 4px;">Córdoba – (0353) 154015918 / 154258101</p>
+                <p style="margin-bottom: 4px;">Administración – (0353) 154218435</p>
+
+              </div>
+
+
+
+
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1676961268712!5m2!1sen!2sus"
+                frameborder="0" style="border: 0; width: 100%; height: 270px" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up"
+              data-aos-delay="200">
+              <div class="row gy-4">
+                <div class="col-md-6">
+                  <label for="name-field" class="pb-2">Your Name</label>
+                  <input type="text" name="name" id="name-field" class="form-control" required="" />
+                </div>
+
+                <div class="col-md-6">
+                  <label for="email-field" class="pb-2">Your Email</label>
+                  <input type="email" class="form-control" name="email" id="email-field" required="" />
+                </div>
+
+                <div class="col-md-12">
+                  <label for="subject-field" class="pb-2">Subject</label>
+                  <input type="text" class="form-control" name="subject" id="subject-field" required="" />
+                </div>
+
+                <div class="col-md-12">
+                  <label for="message-field" class="pb-2">Message</label>
+                  <textarea class="form-control" name="message" rows="10" id="message-field" required=""></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">
+                    Your message has been sent. Thank you!
+                  </div>
+
+                  <button type="submit">Send Message</button>
+                </div>
+              </div>
+            </form>
+          </div>
+          <!-- End Contact Form -->
+        </div>
+      </div>
+    </section>
+
+
+    <!-- /Contact Section -->
+  </main>
+
+  <footer id="footer" class="footer">
+    <div class="footer-newsletter">
+      <div class="container">
+        <div class="row justify-content-center text-center">
+          <!-- <div class="col-lg-6">
               <h4>Join Our Newsletter</h4>
               <p>
                 Subscribe to our newsletter and receive the latest news about
@@ -1156,117 +1511,113 @@ La forma más sencilla de curar el hormigón es colocar una lámina de polietile
                   Your subscription request has been sent. Thank you!
                 </div>
               </form>
-            </div>
-          </div>
+            </div> -->
         </div>
       </div>
+    </div>
 
-      <div class="container footer-top">
-        <div class="row gy-4">
-          <div class="col-lg-4 col-md-6 footer-about">
-            <a href="index.html" class="d-flex align-items-center">
-              <span class="sitename">Arsha</span>
-            </a>
-            <div class="footer-contact pt-3">
-              <p>A108 Adam Street</p>
-              <p>New York, NY 535022</p>
-              <p class="mt-3">
-                <strong>Phone:</strong> <span>+1 5589 55488 55</span>
-              </p>
-              <p><strong>Email:</strong> <span>info@example.com</span></p>
-            </div>
-          </div>
+    <div class="container footer-top">
+      <div class="row gy-4">
 
-          <div class="col-lg-2 col-md-3 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
-              <li>
-                <i class="bi bi-chevron-right"></i> <a href="#">About us</a>
-              </li>
-              <li>
-                <i class="bi bi-chevron-right"></i> <a href="#">Services</a>
-              </li>
-              <li>
-                <i class="bi bi-chevron-right"></i>
-                <a href="#">Terms of service</a>
-              </li>
-            </ul>
-          </div>
-
-          <div class="col-lg-2 col-md-3 footer-links">
-            <h4>Our Services</h4>
-            <ul>
-              <li>
-                <i class="bi bi-chevron-right"></i> <a href="#">Web Design</a>
-              </li>
-              <li>
-                <i class="bi bi-chevron-right"></i>
-                <a href="#">Web Development</a>
-              </li>
-              <li>
-                <i class="bi bi-chevron-right"></i>
-                <a href="#">Product Management</a>
-              </li>
-              <li>
-                <i class="bi bi-chevron-right"></i> <a href="#">Marketing</a>
-              </li>
-            </ul>
-          </div>
-
-          <div class="col-lg-4 col-md-12">
-            <h4>Follow Us</h4>
-            <p>
-              Cras fermentum odio eu feugiat lide par naso tierra videa magna
-              derita valies
+        <div class="col-lg-4 col-md-6 footer-about">
+          <a href="index.html" class="d-flex align-items-center">
+            <span class="sitename">LA MARCHESINA S.R.L</span>
+          </a>
+          <div class="footer-contact pt-3">
+            <p>Calafate y Ruta Nacional N° 158</p>
+            <p>Villa María, Córdoba (5900)</p>
+            <p class="mt-3">
+              <strong>Telefono:</strong> <span>(0353) 453-0967 / 453-8408</span>
             </p>
-            <div class="social-links d-flex">
-              <a href=""><i class="bi bi-twitter-x"></i></a>
-              <a href=""><i class="bi bi-facebook"></i></a>
-              <a href=""><i class="bi bi-instagram"></i></a>
-              <a href=""><i class="bi bi-linkedin"></i></a>
-            </div>
+            <p><strong>Email:</strong> <span>ventas@lamarchesina.com.ar</span></p>
+          </div>
+        </div>
+
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Acceso rapido</h4>
+          <ul>
+            <li><i class="bi bi-chevron-right"></i> <a href="#hero">Inicio</a></li>
+            <li>
+              <i class="bi bi-chevron-right"></i> <a href="#contact">Contacto</a>
+            </li>
+            <li>
+              <i class="bi bi-chevron-right"></i> <a href="#services">Productos</a>
+            </li>
+            <li>
+              <i class="bi bi-chevron-right"></i> <a href="#faq-2">Frecuente</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links" style="padding-top: 40px;">
+          <ul>
+            <li><i class="bi bi-chevron-right"></i> <a href="#hero">Cotizar</a></li>
+            <li>
+              <i class="bi bi-chevron-right"></i> <a href="#contact">Calcular M3</a>
+            </li>
+            <li>
+              <i class="bi bi-chevron-right"></i> <a href="#services">Nosotros</a>
+            </li>
+            <li>
+              <i class="bi bi-chevron-right"></i> <a href="#faq-2">Novedades</a>
+            </li>
+          </ul>
+        </div>
+
+
+        <div class="col-lg-4 col-md-12">
+          <h4>Redes</h4>
+          <p>
+            Seguinos en nuestros canales
+          </p>
+          <div class="social-links d-flex">
+            <a target="_blank"
+              href="https://api.whatsapp.com/send/?phone=5493534820637&text&type=phone_number&app_absent=0"><i
+                class="bi bi-whatsapp"></i></a>
+            <a target="_blank" href="https://www.facebook.com/profile.php?id=100064059697351"><i
+                class="bi bi-facebook"></i></a>
+            <a target="_blank" href="https://www.instagram.com/lamarchesinaok/"><i class="bi bi-instagram"></i></a>
+            <a target="_blank" href="https://www.linkedin.com/company/lamarchesina/"><i class="bi bi-linkedin"></i></a>
           </div>
         </div>
       </div>
+    </div>
 
-      <div class="container copyright text-center mt-4">
-        <p>
-          © <span>Copyright</span> <strong class="px-1 sitename">Arsha</strong>
-          <span>All Rights Reserved</span>
-        </p>
-        <div class="credits">
-          <!-- All the links in the footer should remain intact. -->
-          <!-- You can delete the links only if you've purchased the pro version. -->
-          <!-- Licensing information: https://bootstrapmade.com/license/ -->
-          <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-        </div>
+    <div class="container copyright text-center mt-4">
+      <p>
+        © <span>Copyright</span> <strong class="px-1 sitename">LA MARCHESINA S.R.L</strong>
+        <span>Todos los derechos reservados</span>
+      </p>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Diseñado por <a href="https://bootstrapmade.com/">Michael Correa - lm</a>
       </div>
-    </footer>
+    </div>
+  </footer>
 
-    <!-- Scroll Top -->
-    <a
-      href="#"
-      id="scroll-top"
-      class="scroll-top d-flex align-items-center justify-content-center"
-      ><i class="bi bi-arrow-up-short"></i
-    ></a>
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
 
-    <!-- Preloader -->
-    <div id="preloader"></div>
+  <!-- Preloader -->
+  <div id="preloader"></div>
 
-    <!-- Vendor JS Files -->
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendor/php-email-form/validate.js"></script>
-    <script src="assets/vendor/aos/aos.js"></script>
-    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-    <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
 
-    <!-- Main JS File -->
-    <script src="assets/js/main.js"></script>
-  </body>
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+</body>
+
 </html>
